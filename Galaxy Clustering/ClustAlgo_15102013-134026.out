@@ -1,0 +1,3381 @@
+/N/hd01/debseal/BigRed2/DataMining/Assignment3/C_km
+Data Pulled Successfully!!!
+
+Cleansing data ....
+Using mean to replace missing values....
+##################################
+For SCN 1057013 attribute 6 for record 24 cleaned with 3
+For SCN 1096800 attribute 6 for record 41 cleaned with 3
+For SCN 1183246 attribute 6 for record 140 cleaned with 3
+For SCN 1184840 attribute 6 for record 146 cleaned with 3
+For SCN 1193683 attribute 6 for record 159 cleaned with 3
+For SCN 1197510 attribute 6 for record 165 cleaned with 3
+For SCN 1241232 attribute 6 for record 236 cleaned with 3
+For SCN 169356 attribute 6 for record 250 cleaned with 3
+For SCN 432809 attribute 6 for record 276 cleaned with 3
+For SCN 563649 attribute 6 for record 293 cleaned with 3
+For SCN 606140 attribute 6 for record 295 cleaned with 3
+For SCN 61634 attribute 6 for record 298 cleaned with 3
+For SCN 704168 attribute 6 for record 316 cleaned with 3
+For SCN 733639 attribute 6 for record 322 cleaned with 3
+For SCN 1238464 attribute 6 for record 412 cleaned with 3
+For SCN 1057067 attribute 6 for record 618 cleaned with 3
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.1587982832618025	6.798283261802575	6.7296137339055795	5.733905579399142	5.472103004291846	7.866952789699571	6.103004291845494	6.07725321888412	2.5493562231759657	
+3.0472103004291844	1.3025751072961373	1.446351931330472	1.3433476394849786	2.087982832618026	1.3648068669527897	2.1051502145922747	1.261802575107296	1.109442060085837	
+truePostive 	:669
+falsePositive	: 30
+PPV 	: 0.9570815450643777
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	7
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.0595744680851062	1.3191489361702127	1.4553191489361703	1.351063829787234	2.1106382978723404	1.3872340425531915	2.1382978723404253	
+7.205240174672489	6.860262008733624	6.8034934497816595	5.794759825327511	5.4847161572052405	7.934497816593886	6.104803493449782	
+truePostive 	:669
+falsePositive	: 30
+PPV 	: 0.9570815450643777
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	5
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+3.1104166666666666	1.3270833333333334	1.4875	1.3625	2.154166666666667	
+7.28310502283105	7.095890410958904	6.9771689497716896	5.972602739726027	5.54337899543379	
+truePostive 	:654
+falsePositive	: 45
+PPV 	: 0.9356223175965666
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.060041407867495	1.3478260869565217	1.4968944099378882	
+7.453703703703703	7.12962962962963	7.032407407407407	
+truePostive 	:652
+falsePositive	: 47
+PPV 	: 0.932761087267525
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.0203252032520327	1.434959349593496	
+7.739130434782608	7.173913043478261	
+truePostive 	:620
+falsePositive	: 79
+PPV 	: 0.8869814020028612
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:1
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.146341463414634	6.892682926829268	6.795121951219512	5.907317073170732	5.424390243902439	8.014634146341463	6.209756097560976	6.107317073170732	2.629268292682927	
+2.9787735849056602	1.2665094339622642	1.403301886792453	1.3372641509433962	2.080188679245283	1.3278301886792452	2.025943396226415	1.2193396226415094	1.070754716981132	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:57
+falsePositive	: 13
+PPV 	: 0.8142857142857143
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:2
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.185714285714286	6.847619047619047	6.780952380952381	5.714285714285714	5.319047619047619	7.847619047619047	6.190476190476191	6.080952380952381	2.395238095238095	
+3.052505966587112	1.2887828162291168	1.431980906921241	1.3412887828162292	2.059665871121718	1.3269689737470167	2.0262529832935563	1.243436754176611	1.1050119331742243	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:67
+falsePositive	: 3
+PPV 	: 0.9571428571428572
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:3
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+7.14975845410628	6.753623188405797	6.657004830917875	5.714975845410628	5.367149758454106	7.797101449275362	6.130434782608695	6.038647342995169	2.4879227053140096	
+3.1113744075829386	1.3270142180094786	1.4739336492890995	1.3554502369668247	2.0971563981042656	1.3507109004739337	2.075829383886256	1.2559241706161137	1.1066350710900474	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:69
+falsePositive	: 1
+PPV 	: 0.9857142857142858
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:4
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 6 iterations
+Coordinates of Centroids now are:
+6.974489795918367	6.73469387755102	6.642857142857143	5.86734693877551	5.540816326530612	7.729591836734694	6.122448979591836	6.076530612244898	2.5153061224489797	
+3.0531177829099305	1.3071593533487298	1.4249422632794457	1.3394919168591224	2.094688221709007	1.3348729792147807	2.0577367205542725	1.2286374133949192	1.117782909930716	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:66
+falsePositive	: 4
+PPV 	: 0.9428571428571428
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:5
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.133333333333334	7.128205128205129	7.030769230769231	5.851282051282051	5.6461538461538465	7.841025641025641	6.271794871794872	6.158974358974359	2.635897435897436	
+3.1566820276497696	1.3225806451612903	1.476958525345622	1.3410138248847927	2.087557603686636	1.400921658986175	2.1129032258064515	1.2672811059907834	1.1221198156682028	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:66
+falsePositive	: 4
+PPV 	: 0.9428571428571428
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:6
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.097323600973236	1.27007299270073	1.4184914841849148	1.3333333333333333	2.072992700729927	1.3600973236009732	2.1265206812652067	1.2481751824817517	1.1119221411192215	
+7.18348623853211	6.706422018348624	6.68348623853211	5.6880733944954125	5.39908256880734	7.8119266055045875	6.073394495412844	6.073394495412844	2.4541284403669725	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:68
+falsePositive	: 2
+PPV 	: 0.9714285714285714
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:7
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.083720930232558	6.6976744186046515	6.632558139534884	5.651162790697675	5.441860465116279	7.879069767441861	5.976744186046512	6.055813953488372	2.604651162790698	
+2.9420289855072466	1.2971014492753623	1.4420289855072463	1.2995169082125604	2.103864734299517	1.3429951690821256	2.1932367149758454	1.2681159420289856	1.1207729468599035	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:67
+falsePositive	: 3
+PPV 	: 0.9571428571428572
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:8
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.202702702702703	6.7657657657657655	6.7207207207207205	5.666666666666667	5.54054054054054	7.828828828828829	6.0675675675675675	6.072072072072072	2.5855855855855854	
+3.0	1.3144963144963144	1.479115479115479	1.3464373464373465	2.117936117936118	1.3882063882063882	2.1474201474201475	1.28009828009828	1.1228501228501229	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:70
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:9
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+2.997601918465228	1.3237410071942446	1.4532374100719425	1.3501199040767387	2.1031175059952036	1.3645083932853717	2.1223021582733814	1.275779376498801	1.1223021582733812	
+7.193396226415095	6.731132075471698	6.665094339622642	5.632075471698113	5.490566037735849	7.886792452830188	5.938679245283019	6.165094339622642	2.6226415094339623	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:70
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:10
+Training data of size 	:630
+Test data of size 	:69
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 2 iterations
+Coordinates of Centroids now are:
+3.0831295843520783	1.315403422982885	1.4474327628361858	1.3422982885085575	2.078239608801956	1.3887530562347188	2.17359413202934	1.2640586797066016	1.1026894865525672	
+7.226244343891403	6.642533936651584	6.638009049773756	5.6877828054298645	5.470588235294118	8.02262443438914	5.995475113122172	6.0	2.524886877828054	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:69
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+Weighted PPV is 	:0.9571428571428573
+
+===============================================================
+
+Cleansing data ....
+Using median to replace missing values....
+##################################
+For SCN 1057013 attribute 6 for record 24 cleaned with 1
+For SCN 1096800 attribute 6 for record 41 cleaned with 1
+For SCN 1183246 attribute 6 for record 140 cleaned with 1
+For SCN 1184840 attribute 6 for record 146 cleaned with 1
+For SCN 1193683 attribute 6 for record 159 cleaned with 1
+For SCN 1197510 attribute 6 for record 165 cleaned with 1
+For SCN 1241232 attribute 6 for record 236 cleaned with 1
+For SCN 169356 attribute 6 for record 250 cleaned with 1
+For SCN 432809 attribute 6 for record 276 cleaned with 1
+For SCN 563649 attribute 6 for record 293 cleaned with 1
+For SCN 606140 attribute 6 for record 295 cleaned with 1
+For SCN 61634 attribute 6 for record 298 cleaned with 1
+For SCN 704168 attribute 6 for record 316 cleaned with 1
+For SCN 733639 attribute 6 for record 322 cleaned with 1
+For SCN 1238464 attribute 6 for record 412 cleaned with 1
+For SCN 1057067 attribute 6 for record 618 cleaned with 1
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.043010752688172	1.3010752688172043	1.4430107526881721	1.3376344086021505	2.088172043010753	1.2967741935483872	2.1032258064516127	1.2516129032258065	1.1096774193548387	
+7.14957264957265	6.777777777777778	6.713675213675214	5.726495726495727	5.457264957264957	7.837606837606837	6.089743589743589	6.076923076923077	2.5427350427350426	
+truePostive 	:670
+falsePositive	: 29
+PPV 	: 0.9585121602288984
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	7
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.205240174672489	6.860262008733624	6.8034934497816595	5.794759825327511	5.4847161572052405	7.908296943231441	6.104803493449782	
+3.0595744680851062	1.3191489361702127	1.4553191489361703	1.351063829787234	2.1106382978723404	1.3319148936170213	2.1382978723404253	
+truePostive 	:669
+falsePositive	: 30
+PPV 	: 0.9570815450643777
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	5
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.1104166666666666	1.3270833333333334	1.4875	1.3625	2.154166666666667	
+7.28310502283105	7.095890410958904	6.9771689497716896	5.972602739726027	5.54337899543379	
+truePostive 	:654
+falsePositive	: 45
+PPV 	: 0.9356223175965666
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.453703703703703	7.12962962962963	7.032407407407407	
+3.060041407867495	1.3478260869565217	1.4968944099378882	
+truePostive 	:652
+falsePositive	: 47
+PPV 	: 0.932761087267525
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+7.746341463414634	7.214634146341464	
+3.0364372469635628	1.4412955465587045	
+truePostive 	:618
+falsePositive	: 81
+PPV 	: 0.8841201716738197
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:1
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.146341463414634	6.892682926829268	6.795121951219512	5.907317073170732	5.424390243902439	7.995121951219512	6.209756097560976	6.107317073170732	2.629268292682927	
+2.9787735849056602	1.2665094339622642	1.403301886792453	1.3372641509433962	2.080188679245283	1.2712264150943395	2.025943396226415	1.2193396226415094	1.070754716981132	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:57
+falsePositive	: 13
+PPV 	: 0.8142857142857143
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:2
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.196172248803828	6.8708133971291865	6.7990430622009566	5.722488038277512	5.3349282296650715	7.822966507177034	6.205741626794258	6.08133971291866	2.401913875598086	
+3.057142857142857	1.2904761904761906	1.4357142857142857	1.3476190476190477	2.0595238095238093	1.2833333333333334	2.0285714285714285	1.2547619047619047	1.1047619047619048	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:67
+falsePositive	: 3
+PPV 	: 0.9571428571428572
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:3
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 6 iterations
+Coordinates of Centroids now are:
+7.14975845410628	6.753623188405797	6.657004830917875	5.714975845410628	5.367149758454106	7.768115942028985	6.130434782608695	6.038647342995169	2.4879227053140096	
+3.1113744075829386	1.3270142180094786	1.4739336492890995	1.3554502369668247	2.0971563981042656	1.3033175355450237	2.075829383886256	1.2559241706161137	1.1066350710900474	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:69
+falsePositive	: 1
+PPV 	: 0.9857142857142858
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:4
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+6.974619289340102	6.720812182741117	6.6395939086294415	5.8578680203045685	5.543147208121828	7.66497461928934	6.111675126903553	6.060913705583756	2.5076142131979697	
+3.0439814814814814	1.3009259259259258	1.4143518518518519	1.3333333333333333	2.0856481481481484	1.2893518518518519	2.053240740740741	1.224537037037037	1.1180555555555556	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:66
+falsePositive	: 4
+PPV 	: 0.9428571428571428
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:5
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.1566820276497696	1.3225806451612903	1.476958525345622	1.3410138248847927	2.087557603686636	1.3548387096774193	2.1129032258064515	1.2672811059907834	1.1221198156682028	
+7.133333333333334	7.128205128205129	7.030769230769231	5.851282051282051	5.6461538461538465	7.8307692307692305	6.271794871794872	6.158974358974359	2.635897435897436	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:66
+falsePositive	: 4
+PPV 	: 0.9428571428571428
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:6
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.097323600973236	1.27007299270073	1.4184914841849148	1.3333333333333333	2.072992700729927	1.3017031630170317	2.1265206812652067	1.2481751824817517	1.1119221411192215	
+7.18348623853211	6.706422018348624	6.68348623853211	5.6880733944954125	5.39908256880734	7.784403669724771	6.073394495412844	6.073394495412844	2.4541284403669725	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:68
+falsePositive	: 2
+PPV 	: 0.9714285714285714
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:7
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+2.9174757281553396	1.2815533980582525	1.4150485436893203	1.2936893203883495	2.0946601941747574	1.2766990291262137	2.1893203883495147	1.2645631067961165	1.1116504854368932	
+7.092165898617512	6.67741935483871	6.635944700460829	5.622119815668203	5.428571428571429	7.797235023041475	5.949308755760368	6.018433179723503	2.608294930875576	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:67
+falsePositive	: 3
+PPV 	: 0.9571428571428572
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:8
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.0	1.3144963144963144	1.479115479115479	1.3464373464373465	2.117936117936118	1.3243243243243243	2.1474201474201475	1.28009828009828	1.1228501228501229	
+7.202702702702703	6.7657657657657655	6.7207207207207205	5.666666666666667	5.54054054054054	7.801801801801802	6.0675675675675675	6.072072072072072	2.5855855855855854	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:70
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:9
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+7.193396226415095	6.731132075471698	6.665094339622642	5.632075471698113	5.490566037735849	7.8584905660377355	5.938679245283019	6.165094339622642	2.6226415094339623	
+2.997601918465228	1.3237410071942446	1.4532374100719425	1.3501199040767387	2.1031175059952036	1.3069544364508394	2.1223021582733814	1.275779376498801	1.1223021582733812	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:70
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:10
+Training data of size 	:630
+Test data of size 	:69
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.0831295843520783	1.315403422982885	1.4474327628361858	1.3422982885085575	2.078239608801956	1.3251833740831296	2.17359413202934	1.2640586797066016	1.1026894865525672	
+7.226244343891403	6.642533936651584	6.638009049773756	5.6877828054298645	5.470588235294118	7.995475113122172	5.995475113122172	6.0	2.524886877828054	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:69
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+Weighted PPV is 	:0.9571428571428573
+
+===============================================================
+
+Cleansing data ....
+Using mode to replace missing values....
+##################################
+For SCN 1057013 attribute 6 for record 24 cleaned with 1
+For SCN 1096800 attribute 6 for record 41 cleaned with 1
+For SCN 1183246 attribute 6 for record 140 cleaned with 1
+For SCN 1184840 attribute 6 for record 146 cleaned with 1
+For SCN 1193683 attribute 6 for record 159 cleaned with 1
+For SCN 1197510 attribute 6 for record 165 cleaned with 1
+For SCN 1241232 attribute 6 for record 236 cleaned with 1
+For SCN 169356 attribute 6 for record 250 cleaned with 1
+For SCN 432809 attribute 6 for record 276 cleaned with 1
+For SCN 563649 attribute 6 for record 293 cleaned with 1
+For SCN 606140 attribute 6 for record 295 cleaned with 1
+For SCN 61634 attribute 6 for record 298 cleaned with 1
+For SCN 704168 attribute 6 for record 316 cleaned with 1
+For SCN 733639 attribute 6 for record 322 cleaned with 1
+For SCN 1238464 attribute 6 for record 412 cleaned with 1
+For SCN 1057067 attribute 6 for record 618 cleaned with 1
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.043010752688172	1.3010752688172043	1.4430107526881721	1.3376344086021505	2.088172043010753	1.2967741935483872	2.1032258064516127	1.2516129032258065	1.1096774193548387	
+7.14957264957265	6.777777777777778	6.713675213675214	5.726495726495727	5.457264957264957	7.837606837606837	6.089743589743589	6.076923076923077	2.5427350427350426	
+truePostive 	:670
+falsePositive	: 29
+PPV 	: 0.9585121602288984
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	7
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 2 iterations
+Coordinates of Centroids now are:
+3.0595744680851062	1.3191489361702127	1.4553191489361703	1.351063829787234	2.1106382978723404	1.3319148936170213	2.1382978723404253	
+7.205240174672489	6.860262008733624	6.8034934497816595	5.794759825327511	5.4847161572052405	7.908296943231441	6.104803493449782	
+truePostive 	:669
+falsePositive	: 30
+PPV 	: 0.9570815450643777
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	5
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.1104166666666666	1.3270833333333334	1.4875	1.3625	2.154166666666667	
+7.28310502283105	7.095890410958904	6.9771689497716896	5.972602739726027	5.54337899543379	
+truePostive 	:654
+falsePositive	: 45
+PPV 	: 0.9356223175965666
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.453703703703703	7.12962962962963	7.032407407407407	
+3.060041407867495	1.3478260869565217	1.4968944099378882	
+truePostive 	:652
+falsePositive	: 47
+PPV 	: 0.932761087267525
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+3.0364372469635628	1.4412955465587045	
+7.746341463414634	7.214634146341464	
+truePostive 	:618
+falsePositive	: 81
+PPV 	: 0.8841201716738197
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:1
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.146341463414634	6.892682926829268	6.795121951219512	5.907317073170732	5.424390243902439	7.995121951219512	6.209756097560976	6.107317073170732	2.629268292682927	
+2.9787735849056602	1.2665094339622642	1.403301886792453	1.3372641509433962	2.080188679245283	1.2712264150943395	2.025943396226415	1.2193396226415094	1.070754716981132	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:57
+falsePositive	: 13
+PPV 	: 0.8142857142857143
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:2
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.196172248803828	6.8708133971291865	6.7990430622009566	5.722488038277512	5.3349282296650715	7.822966507177034	6.205741626794258	6.08133971291866	2.401913875598086	
+3.057142857142857	1.2904761904761906	1.4357142857142857	1.3476190476190477	2.0595238095238093	1.2833333333333334	2.0285714285714285	1.2547619047619047	1.1047619047619048	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:67
+falsePositive	: 3
+PPV 	: 0.9571428571428572
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:3
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.1113744075829386	1.3270142180094786	1.4739336492890995	1.3554502369668247	2.0971563981042656	1.3033175355450237	2.075829383886256	1.2559241706161137	1.1066350710900474	
+7.14975845410628	6.753623188405797	6.657004830917875	5.714975845410628	5.367149758454106	7.768115942028985	6.130434782608695	6.038647342995169	2.4879227053140096	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:69
+falsePositive	: 1
+PPV 	: 0.9857142857142858
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:4
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+6.974619289340102	6.720812182741117	6.6395939086294415	5.8578680203045685	5.543147208121828	7.66497461928934	6.111675126903553	6.060913705583756	2.5076142131979697	
+3.0439814814814814	1.3009259259259258	1.4143518518518519	1.3333333333333333	2.0856481481481484	1.2893518518518519	2.053240740740741	1.224537037037037	1.1180555555555556	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:66
+falsePositive	: 4
+PPV 	: 0.9428571428571428
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:5
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.133333333333334	7.128205128205129	7.030769230769231	5.851282051282051	5.6461538461538465	7.8307692307692305	6.271794871794872	6.158974358974359	2.635897435897436	
+3.1566820276497696	1.3225806451612903	1.476958525345622	1.3410138248847927	2.087557603686636	1.3548387096774193	2.1129032258064515	1.2672811059907834	1.1221198156682028	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:66
+falsePositive	: 4
+PPV 	: 0.9428571428571428
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:6
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.097323600973236	1.27007299270073	1.4184914841849148	1.3333333333333333	2.072992700729927	1.3017031630170317	2.1265206812652067	1.2481751824817517	1.1119221411192215	
+7.18348623853211	6.706422018348624	6.68348623853211	5.6880733944954125	5.39908256880734	7.784403669724771	6.073394495412844	6.073394495412844	2.4541284403669725	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:68
+falsePositive	: 2
+PPV 	: 0.9714285714285714
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:7
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.083720930232558	6.6976744186046515	6.632558139534884	5.651162790697675	5.441860465116279	7.851162790697674	5.976744186046512	6.055813953488372	2.604651162790698	
+2.9420289855072466	1.2971014492753623	1.4420289855072463	1.2995169082125604	2.103864734299517	1.2801932367149758	2.1932367149758454	1.2681159420289856	1.1207729468599035	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:67
+falsePositive	: 3
+PPV 	: 0.9571428571428572
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:8
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.202702702702703	6.7657657657657655	6.7207207207207205	5.666666666666667	5.54054054054054	7.801801801801802	6.0675675675675675	6.072072072072072	2.5855855855855854	
+3.0	1.3144963144963144	1.479115479115479	1.3464373464373465	2.117936117936118	1.3243243243243243	2.1474201474201475	1.28009828009828	1.1228501228501229	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:70
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:9
+Training data of size 	:629
+Test data of size 	:70
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+2.997601918465228	1.3237410071942446	1.4532374100719425	1.3501199040767387	2.1031175059952036	1.3069544364508394	2.1223021582733814	1.275779376498801	1.1223021582733812	
+7.193396226415095	6.731132075471698	6.665094339622642	5.632075471698113	5.490566037735849	7.8584905660377355	5.938679245283019	6.165094339622642	2.6226415094339623	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:70
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:10
+Training data of size 	:630
+Test data of size 	:69
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.0831295843520783	1.315403422982885	1.4474327628361858	1.3422982885085575	2.078239608801956	1.3251833740831296	2.17359413202934	1.2640586797066016	1.1026894865525672	
+7.226244343891403	6.642533936651584	6.638009049773756	5.6877828054298645	5.470588235294118	7.995475113122172	5.995475113122172	6.0	2.524886877828054	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:69
+falsePositive	: 0
+PPV 	: 1.0
+
+===============================================================
+
+Weighted PPV is 	:0.9571428571428573
+
+===============================================================
+
+Cleansing data ....
+Using removal to replace missing values....
+##################################
+16 records with missing values removed!!!
+New size of dataset is 	:683
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+7.173913043478261	6.8	6.734782608695652	5.739130434782608	5.478260869565218	7.930434782608696	6.108695652173913	6.039130434782609	2.5695652173913044	
+3.055187637969095	1.2980132450331126	1.4282560706401766	1.3532008830022075	2.094922737306843	1.3178807947019868	2.0927152317880795	1.260485651214128	1.1125827814569536	
+truePostive 	:487
+falsePositive	: 196
+PPV 	: 0.7130307467057101
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	7
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.221238938053097	6.8628318584070795	6.8097345132743365	5.800884955752212	5.491150442477876	8.0	6.110619469026549	
+3.0678336980306344	1.3150984682713347	1.437636761487965	1.3610503282275712	2.1181619256017505	1.3413566739606126	2.1269146608315097	
+truePostive 	:463
+falsePositive	: 220
+PPV 	: 0.677891654465593
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	5
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+3.119914346895075	1.323340471092077	1.4710920770877944	1.3725910064239828	2.1627408993576016	
+7.300925925925926	7.101851851851852	6.986111111111111	5.981481481481482	5.550925925925926	
+truePostive 	:517
+falsePositive	: 166
+PPV 	: 0.7569546120058566
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.471698113207547	7.150943396226415	7.05188679245283	
+3.0785562632696393	1.3503184713375795	1.4883227176220806	
+truePostive 	:534
+falsePositive	: 149
+PPV 	: 0.7818448023426061
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 6 iterations
+Coordinates of Centroids now are:
+7.7711442786069655	7.2388059701492535	
+3.0539419087136928	1.446058091286307	
+truePostive 	:517
+falsePositive	: 166
+PPV 	: 0.7569546120058566
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:1
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.143564356435643	6.896039603960396	6.811881188118812	5.955445544554456	5.445544554455446	8.084158415841584	6.237623762376238	6.094059405940594	2.6435643564356437	
+3.0145278450363198	1.278450363196126	1.397094430992736	1.3462469733656175	2.0895883777239708	1.2857142857142858	2.0242130750605325	1.2227602905569008	1.0774818401937045	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:36
+falsePositive	: 32
+PPV 	: 0.5294117647058824
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:2
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.063569682151589	1.2836185819070904	1.4156479217603912	1.3569682151589242	2.063569682151589	1.2909535452322738	2.0122249388753057	1.2518337408312958	1.1075794621026895	
+7.213592233009709	6.87378640776699	6.805825242718447	5.728155339805825	5.339805825242719	7.922330097087379	6.213592233009709	6.038834951456311	2.4223300970873787	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:40
+falsePositive	: 28
+PPV 	: 0.5882352941176471
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:3
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 6 iterations
+Coordinates of Centroids now are:
+3.1143552311435525	1.3211678832116789	1.4574209245742094	1.364963503649635	2.1070559610705595	1.3114355231143553	2.0608272506082725	1.2530413625304135	1.1094890510948905	
+7.166666666666667	6.754901960784314	6.661764705882353	5.720588235294118	5.372549019607843	7.867647058823529	6.137254901960785	5.995098039215686	2.5098039215686274	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:47
+falsePositive	: 21
+PPV 	: 0.6911764705882353
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:4
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+6.989637305699482	6.7357512953367875	6.647668393782383	5.875647668393782	5.549222797927461	7.803108808290156	6.129533678756476	6.0310880829015545	2.538860103626943	
+3.061611374407583	1.3009478672985781	1.414691943127962	1.3483412322274881	2.1018957345971563	1.2962085308056872	2.0450236966824646	1.2251184834123223	1.1208530805687205	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:36
+falsePositive	: 32
+PPV 	: 0.5294117647058824
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:5
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.16548463356974	1.3238770685579195	1.4609929078014185	1.3451536643026005	2.0945626477541373	1.364066193853428	2.104018912529551	1.2695035460992907	1.1252955082742317	
+7.1875	7.151041666666667	7.03125	5.828125	5.630208333333333	7.880208333333333	6.291666666666667	6.135416666666667	2.6458333333333335	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:34
+falsePositive	: 34
+PPV 	: 0.5
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:6
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 5 iterations
+Coordinates of Centroids now are:
+3.1027568922305764	1.255639097744361	1.3884711779448622	1.3433583959899749	2.0776942355889725	1.305764411027569	2.107769423558897	1.2406015037593985	1.1152882205513786	
+7.143518518518518	6.680555555555555	6.680555555555555	5.694444444444445	5.398148148148148	7.856481481481482	6.050925925925926	6.064814814814815	2.4814814814814814	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:58
+falsePositive	: 10
+PPV 	: 0.8529411764705882
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:7
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+7.120930232558139	6.693023255813953	6.655813953488372	5.632558139534884	5.455813953488372	7.902325581395349	5.962790697674419	5.9581395348837205	2.6232558139534885	
+2.93	1.2825	1.4	1.3075	2.1025	1.29	2.185	1.2675	1.115	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:55
+falsePositive	: 13
+PPV 	: 0.8088235294117647
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:8
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 3 iterations
+Coordinates of Centroids now are:
+7.219178082191781	6.767123287671233	6.726027397260274	5.671232876712328	5.5479452054794525	7.894977168949771	6.073059360730594	6.031963470319635	2.6073059360730593	
+3.007575757575758	1.3080808080808082	1.457070707070707	1.356060606060606	2.1262626262626263	1.3333333333333333	2.1313131313131315	1.2777777777777777	1.1262626262626263	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:60
+falsePositive	: 8
+PPV 	: 0.8823529411764706
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:9
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+7.2105263157894735	6.732057416267943	6.669856459330144	5.636363636363637	5.497607655502392	7.956937799043062	5.942583732057416	6.124401913875598	2.645933014354067	
+2.9950738916256157	1.3177339901477831	1.4310344827586208	1.3596059113300492	2.1083743842364533	1.3152709359605912	2.100985221674877	1.2733990147783252	1.125615763546798	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:54
+falsePositive	: 14
+PPV 	: 0.7941176470588235
+
+===============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training .....
+VFold	:10
+Fold training on 	:10
+Training data of size 	:615
+Test data of size 	:68
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	2
+Distance Metric:	Eucledian
+Number of Attributes:	9
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because stable state was achieved after 4 iterations
+Coordinates of Centroids now are:
+3.0939086294416245	1.3121827411167513	1.4289340101522843	1.3553299492385786	2.0862944162436547	1.3375634517766497	2.16751269035533	1.263959390862944	1.1065989847715736	
+7.203619909502263	6.669683257918552	6.660633484162896	5.669683257918552	5.46606334841629	8.036199095022624	6.04524886877828	5.968325791855204	2.5294117647058822	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Now Testing .....
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+truePostive 	:66
+falsePositive	: 2
+PPV 	: 0.9705882352941176
+
+===============================================================
+
+Weighted PPV is 	:0.7147058823529412
+
+===============================================================
+
+Astronomy Data being pulled......
+/N/hd01/debseal/BigRed2/DataMining/Assignment3/C_km
+Data Pulled Successfully!!!
+/N/hd01/debseal/BigRed2/DataMining/Assignment3/C_km
+Data Pulled Successfully!!!
+/N/hd01/debseal/BigRed2/DataMining/Assignment3/C_km
+Data Pulled Successfully!!!
+
+===============================================================
+Computing control Algortihm......
+Number of datapoints present in both	:0
+Number of datapoints present only in our computed control	:7246
+Number of datapoints present only in our given control	:7246
+
+===============================================================
+===============================================================
+
+For the GalaxyType	:0
+Number of records in main with GalaxyType	:0	:949
+Number of records in candidate with GalaxyType	:0	:12355
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	949
+Distance Metric:	Others
+Number of Attributes:	3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because the iteration count exhausted
+
+Number of dataPoints in Cluster # 0	:4
+Number of dataPoints in Cluster # 1	:29
+Number of dataPoints in Cluster # 2	:42
+Number of dataPoints in Cluster # 3	:25
+Number of dataPoints in Cluster # 4	:15
+Number of dataPoints in Cluster # 5	:23
+Number of dataPoints in Cluster # 6	:7
+Number of dataPoints in Cluster # 7	:5
+Number of dataPoints in Cluster # 8	:4
+Number of dataPoints in Cluster # 9	:12
+Number of dataPoints in Cluster # 10	:23
+Number of dataPoints in Cluster # 11	:20
+Number of dataPoints in Cluster # 12	:5
+Number of dataPoints in Cluster # 13	:10
+Number of dataPoints in Cluster # 14	:10
+Number of dataPoints in Cluster # 15	:13
+Number of dataPoints in Cluster # 16	:1
+Number of dataPoints in Cluster # 17	:12
+Number of dataPoints in Cluster # 18	:3
+Number of dataPoints in Cluster # 19	:6
+Number of dataPoints in Cluster # 20	:11
+Number of dataPoints in Cluster # 21	:61
+Number of dataPoints in Cluster # 22	:19
+Number of dataPoints in Cluster # 23	:23
+Number of dataPoints in Cluster # 24	:5
+Number of dataPoints in Cluster # 25	:2
+Number of dataPoints in Cluster # 26	:19
+Number of dataPoints in Cluster # 27	:8
+Number of dataPoints in Cluster # 28	:5
+Number of dataPoints in Cluster # 29	:2
+Number of dataPoints in Cluster # 30	:25
+Number of dataPoints in Cluster # 31	:11
+Number of dataPoints in Cluster # 32	:6
+Number of dataPoints in Cluster # 33	:7
+Number of dataPoints in Cluster # 34	:6
+Number of dataPoints in Cluster # 35	:79
+Number of dataPoints in Cluster # 36	:6
+Number of dataPoints in Cluster # 37	:8
+Number of dataPoints in Cluster # 38	:5
+Number of dataPoints in Cluster # 39	:1
+Number of dataPoints in Cluster # 40	:2
+Number of dataPoints in Cluster # 41	:4
+Number of dataPoints in Cluster # 42	:7
+Number of dataPoints in Cluster # 43	:5
+Number of dataPoints in Cluster # 44	:16
+Number of dataPoints in Cluster # 45	:7
+Number of dataPoints in Cluster # 46	:9
+Number of dataPoints in Cluster # 47	:52
+Number of dataPoints in Cluster # 48	:14
+Number of dataPoints in Cluster # 49	:11
+Number of dataPoints in Cluster # 50	:9
+Number of dataPoints in Cluster # 51	:8
+Number of dataPoints in Cluster # 52	:8
+Number of dataPoints in Cluster # 53	:7
+Number of dataPoints in Cluster # 54	:3
+Number of dataPoints in Cluster # 55	:8
+Number of dataPoints in Cluster # 56	:86
+Number of dataPoints in Cluster # 57	:9
+Number of dataPoints in Cluster # 58	:15
+Number of dataPoints in Cluster # 59	:11
+Number of dataPoints in Cluster # 60	:10
+Number of dataPoints in Cluster # 61	:16
+Number of dataPoints in Cluster # 62	:7
+Number of dataPoints in Cluster # 63	:9
+Number of dataPoints in Cluster # 64	:7
+Number of dataPoints in Cluster # 65	:30
+Number of dataPoints in Cluster # 66	:2
+Number of dataPoints in Cluster # 67	:5
+Number of dataPoints in Cluster # 68	:11
+Number of dataPoints in Cluster # 69	:8
+Number of dataPoints in Cluster # 70	:5
+Number of dataPoints in Cluster # 71	:11
+Number of dataPoints in Cluster # 72	:7
+Number of dataPoints in Cluster # 73	:3
+Number of dataPoints in Cluster # 74	:5
+Number of dataPoints in Cluster # 75	:34
+Number of dataPoints in Cluster # 76	:2
+Number of dataPoints in Cluster # 77	:12
+Number of dataPoints in Cluster # 78	:41
+Number of dataPoints in Cluster # 79	:9
+Number of dataPoints in Cluster # 80	:4
+Number of dataPoints in Cluster # 81	:3
+Number of dataPoints in Cluster # 82	:13
+Number of dataPoints in Cluster # 83	:6
+Number of dataPoints in Cluster # 84	:65
+Number of dataPoints in Cluster # 85	:40
+Number of dataPoints in Cluster # 86	:49
+Number of dataPoints in Cluster # 87	:3
+Number of dataPoints in Cluster # 88	:6
+Number of dataPoints in Cluster # 89	:7
+Number of dataPoints in Cluster # 90	:18
+Number of dataPoints in Cluster # 91	:9
+Number of dataPoints in Cluster # 92	:5
+Number of dataPoints in Cluster # 93	:14
+Number of dataPoints in Cluster # 94	:3
+Number of dataPoints in Cluster # 95	:12
+Number of dataPoints in Cluster # 96	:6
+Number of dataPoints in Cluster # 97	:9
+Number of dataPoints in Cluster # 98	:25
+Number of dataPoints in Cluster # 99	:29
+Number of dataPoints in Cluster # 100	:18
+Number of dataPoints in Cluster # 101	:7
+Number of dataPoints in Cluster # 102	:9
+Number of dataPoints in Cluster # 103	:9
+Number of dataPoints in Cluster # 104	:6
+Number of dataPoints in Cluster # 105	:12
+Number of dataPoints in Cluster # 106	:6
+Number of dataPoints in Cluster # 107	:10
+Number of dataPoints in Cluster # 108	:5
+Number of dataPoints in Cluster # 109	:13
+Number of dataPoints in Cluster # 110	:14
+Number of dataPoints in Cluster # 111	:2
+Number of dataPoints in Cluster # 112	:8
+Number of dataPoints in Cluster # 113	:9
+Number of dataPoints in Cluster # 114	:16
+Number of dataPoints in Cluster # 115	:2
+Number of dataPoints in Cluster # 116	:9
+Number of dataPoints in Cluster # 117	:4
+Number of dataPoints in Cluster # 118	:10
+Number of dataPoints in Cluster # 119	:2
+Number of dataPoints in Cluster # 120	:9
+Number of dataPoints in Cluster # 121	:6
+Number of dataPoints in Cluster # 122	:2
+Number of dataPoints in Cluster # 123	:4
+Number of dataPoints in Cluster # 124	:3
+Number of dataPoints in Cluster # 125	:12
+Number of dataPoints in Cluster # 126	:8
+Number of dataPoints in Cluster # 127	:9
+Number of dataPoints in Cluster # 128	:29
+Number of dataPoints in Cluster # 129	:11
+Number of dataPoints in Cluster # 130	:13
+Number of dataPoints in Cluster # 131	:6
+Number of dataPoints in Cluster # 132	:0
+Number of dataPoints in Cluster # 133	:5
+Number of dataPoints in Cluster # 134	:6
+Number of dataPoints in Cluster # 135	:6
+Number of dataPoints in Cluster # 136	:8
+Number of dataPoints in Cluster # 137	:4
+Number of dataPoints in Cluster # 138	:3
+Number of dataPoints in Cluster # 139	:9
+Number of dataPoints in Cluster # 140	:5
+Number of dataPoints in Cluster # 141	:13
+Number of dataPoints in Cluster # 142	:2
+Number of dataPoints in Cluster # 143	:20
+Number of dataPoints in Cluster # 144	:2
+Number of dataPoints in Cluster # 145	:4
+Number of dataPoints in Cluster # 146	:12
+Number of dataPoints in Cluster # 147	:2
+Number of dataPoints in Cluster # 148	:8
+Number of dataPoints in Cluster # 149	:4
+Number of dataPoints in Cluster # 150	:8
+Number of dataPoints in Cluster # 151	:2
+Number of dataPoints in Cluster # 152	:3
+Number of dataPoints in Cluster # 153	:16
+Number of dataPoints in Cluster # 154	:4
+Number of dataPoints in Cluster # 155	:5
+Number of dataPoints in Cluster # 156	:8
+Number of dataPoints in Cluster # 157	:20
+Number of dataPoints in Cluster # 158	:9
+Number of dataPoints in Cluster # 159	:47
+Number of dataPoints in Cluster # 160	:32
+Number of dataPoints in Cluster # 161	:7
+Number of dataPoints in Cluster # 162	:5
+Number of dataPoints in Cluster # 163	:23
+Number of dataPoints in Cluster # 164	:17
+Number of dataPoints in Cluster # 165	:7
+Number of dataPoints in Cluster # 166	:10
+Number of dataPoints in Cluster # 167	:23
+Number of dataPoints in Cluster # 168	:19
+Number of dataPoints in Cluster # 169	:30
+Number of dataPoints in Cluster # 170	:10
+Number of dataPoints in Cluster # 171	:12
+Number of dataPoints in Cluster # 172	:2
+Number of dataPoints in Cluster # 173	:3
+Number of dataPoints in Cluster # 174	:7
+Number of dataPoints in Cluster # 175	:58
+Number of dataPoints in Cluster # 176	:12
+Number of dataPoints in Cluster # 177	:2
+Number of dataPoints in Cluster # 178	:4
+Number of dataPoints in Cluster # 179	:6
+Number of dataPoints in Cluster # 180	:2
+Number of dataPoints in Cluster # 181	:5
+Number of dataPoints in Cluster # 182	:6
+Number of dataPoints in Cluster # 183	:6
+Number of dataPoints in Cluster # 184	:10
+Number of dataPoints in Cluster # 185	:44
+Number of dataPoints in Cluster # 186	:10
+Number of dataPoints in Cluster # 187	:19
+Number of dataPoints in Cluster # 188	:9
+Number of dataPoints in Cluster # 189	:12
+Number of dataPoints in Cluster # 190	:8
+Number of dataPoints in Cluster # 191	:7
+Number of dataPoints in Cluster # 192	:6
+Number of dataPoints in Cluster # 193	:5
+Number of dataPoints in Cluster # 194	:5
+Number of dataPoints in Cluster # 195	:9
+Number of dataPoints in Cluster # 196	:10
+Number of dataPoints in Cluster # 197	:10
+Number of dataPoints in Cluster # 198	:5
+Number of dataPoints in Cluster # 199	:11
+Number of dataPoints in Cluster # 200	:5
+Number of dataPoints in Cluster # 201	:8
+Number of dataPoints in Cluster # 202	:2
+Number of dataPoints in Cluster # 203	:6
+Number of dataPoints in Cluster # 204	:10
+Number of dataPoints in Cluster # 205	:38
+Number of dataPoints in Cluster # 206	:9
+Number of dataPoints in Cluster # 207	:7
+Number of dataPoints in Cluster # 208	:3
+Number of dataPoints in Cluster # 209	:5
+Number of dataPoints in Cluster # 210	:7
+Number of dataPoints in Cluster # 211	:8
+Number of dataPoints in Cluster # 212	:49
+Number of dataPoints in Cluster # 213	:6
+Number of dataPoints in Cluster # 214	:6
+Number of dataPoints in Cluster # 215	:10
+Number of dataPoints in Cluster # 216	:12
+Number of dataPoints in Cluster # 217	:28
+Number of dataPoints in Cluster # 218	:3
+Number of dataPoints in Cluster # 219	:4
+Number of dataPoints in Cluster # 220	:6
+Number of dataPoints in Cluster # 221	:13
+Number of dataPoints in Cluster # 222	:0
+Number of dataPoints in Cluster # 223	:7
+Number of dataPoints in Cluster # 224	:11
+Number of dataPoints in Cluster # 225	:3
+Number of dataPoints in Cluster # 226	:69
+Number of dataPoints in Cluster # 227	:8
+Number of dataPoints in Cluster # 228	:50
+Number of dataPoints in Cluster # 229	:8
+Number of dataPoints in Cluster # 230	:4
+Number of dataPoints in Cluster # 231	:10
+Number of dataPoints in Cluster # 232	:6
+Number of dataPoints in Cluster # 233	:5
+Number of dataPoints in Cluster # 234	:19
+Number of dataPoints in Cluster # 235	:1
+Number of dataPoints in Cluster # 236	:28
+Number of dataPoints in Cluster # 237	:10
+Number of dataPoints in Cluster # 238	:11
+Number of dataPoints in Cluster # 239	:2
+Number of dataPoints in Cluster # 240	:1
+Number of dataPoints in Cluster # 241	:6
+Number of dataPoints in Cluster # 242	:4
+Number of dataPoints in Cluster # 243	:10
+Number of dataPoints in Cluster # 244	:21
+Number of dataPoints in Cluster # 245	:35
+Number of dataPoints in Cluster # 246	:4
+Number of dataPoints in Cluster # 247	:9
+Number of dataPoints in Cluster # 248	:8
+Number of dataPoints in Cluster # 249	:6
+Number of dataPoints in Cluster # 250	:11
+Number of dataPoints in Cluster # 251	:7
+Number of dataPoints in Cluster # 252	:26
+Number of dataPoints in Cluster # 253	:4
+Number of dataPoints in Cluster # 254	:7
+Number of dataPoints in Cluster # 255	:15
+Number of dataPoints in Cluster # 256	:5
+Number of dataPoints in Cluster # 257	:24
+Number of dataPoints in Cluster # 258	:44
+Number of dataPoints in Cluster # 259	:19
+Number of dataPoints in Cluster # 260	:32
+Number of dataPoints in Cluster # 261	:27
+Number of dataPoints in Cluster # 262	:4
+Number of dataPoints in Cluster # 263	:9
+Number of dataPoints in Cluster # 264	:10
+Number of dataPoints in Cluster # 265	:8
+Number of dataPoints in Cluster # 266	:2
+Number of dataPoints in Cluster # 267	:9
+Number of dataPoints in Cluster # 268	:11
+Number of dataPoints in Cluster # 269	:14
+Number of dataPoints in Cluster # 270	:34
+Number of dataPoints in Cluster # 271	:9
+Number of dataPoints in Cluster # 272	:4
+Number of dataPoints in Cluster # 273	:37
+Number of dataPoints in Cluster # 274	:8
+Number of dataPoints in Cluster # 275	:2
+Number of dataPoints in Cluster # 276	:3
+Number of dataPoints in Cluster # 277	:8
+Number of dataPoints in Cluster # 278	:4
+Number of dataPoints in Cluster # 279	:9
+Number of dataPoints in Cluster # 280	:3
+Number of dataPoints in Cluster # 281	:6
+Number of dataPoints in Cluster # 282	:9
+Number of dataPoints in Cluster # 283	:5
+Number of dataPoints in Cluster # 284	:31
+Number of dataPoints in Cluster # 285	:15
+Number of dataPoints in Cluster # 286	:19
+Number of dataPoints in Cluster # 287	:8
+Number of dataPoints in Cluster # 288	:4
+Number of dataPoints in Cluster # 289	:19
+Number of dataPoints in Cluster # 290	:8
+Number of dataPoints in Cluster # 291	:14
+Number of dataPoints in Cluster # 292	:45
+Number of dataPoints in Cluster # 293	:45
+Number of dataPoints in Cluster # 294	:32
+Number of dataPoints in Cluster # 295	:31
+Number of dataPoints in Cluster # 296	:4
+Number of dataPoints in Cluster # 297	:3
+Number of dataPoints in Cluster # 298	:8
+Number of dataPoints in Cluster # 299	:10
+Number of dataPoints in Cluster # 300	:8
+Number of dataPoints in Cluster # 301	:4
+Number of dataPoints in Cluster # 302	:4
+Number of dataPoints in Cluster # 303	:12
+Number of dataPoints in Cluster # 304	:6
+Number of dataPoints in Cluster # 305	:31
+Number of dataPoints in Cluster # 306	:18
+Number of dataPoints in Cluster # 307	:10
+Number of dataPoints in Cluster # 308	:1
+Number of dataPoints in Cluster # 309	:53
+Number of dataPoints in Cluster # 310	:10
+Number of dataPoints in Cluster # 311	:13
+Number of dataPoints in Cluster # 312	:54
+Number of dataPoints in Cluster # 313	:42
+Number of dataPoints in Cluster # 314	:10
+Number of dataPoints in Cluster # 315	:5
+Number of dataPoints in Cluster # 316	:3
+Number of dataPoints in Cluster # 317	:11
+Number of dataPoints in Cluster # 318	:5
+Number of dataPoints in Cluster # 319	:6
+Number of dataPoints in Cluster # 320	:1
+Number of dataPoints in Cluster # 321	:8
+Number of dataPoints in Cluster # 322	:14
+Number of dataPoints in Cluster # 323	:4
+Number of dataPoints in Cluster # 324	:3
+Number of dataPoints in Cluster # 325	:8
+Number of dataPoints in Cluster # 326	:1
+Number of dataPoints in Cluster # 327	:4
+Number of dataPoints in Cluster # 328	:6
+Number of dataPoints in Cluster # 329	:6
+Number of dataPoints in Cluster # 330	:3
+Number of dataPoints in Cluster # 331	:1
+Number of dataPoints in Cluster # 332	:2
+Number of dataPoints in Cluster # 333	:9
+Number of dataPoints in Cluster # 334	:3
+Number of dataPoints in Cluster # 335	:4
+Number of dataPoints in Cluster # 336	:7
+Number of dataPoints in Cluster # 337	:43
+Number of dataPoints in Cluster # 338	:15
+Number of dataPoints in Cluster # 339	:6
+Number of dataPoints in Cluster # 340	:5
+Number of dataPoints in Cluster # 341	:2
+Number of dataPoints in Cluster # 342	:5
+Number of dataPoints in Cluster # 343	:7
+Number of dataPoints in Cluster # 344	:7
+Number of dataPoints in Cluster # 345	:5
+Number of dataPoints in Cluster # 346	:14
+Number of dataPoints in Cluster # 347	:1
+Number of dataPoints in Cluster # 348	:3
+Number of dataPoints in Cluster # 349	:4
+Number of dataPoints in Cluster # 350	:35
+Number of dataPoints in Cluster # 351	:31
+Number of dataPoints in Cluster # 352	:7
+Number of dataPoints in Cluster # 353	:8
+Number of dataPoints in Cluster # 354	:5
+Number of dataPoints in Cluster # 355	:15
+Number of dataPoints in Cluster # 356	:8
+Number of dataPoints in Cluster # 357	:11
+Number of dataPoints in Cluster # 358	:6
+Number of dataPoints in Cluster # 359	:5
+Number of dataPoints in Cluster # 360	:2
+Number of dataPoints in Cluster # 361	:7
+Number of dataPoints in Cluster # 362	:8
+Number of dataPoints in Cluster # 363	:15
+Number of dataPoints in Cluster # 364	:7
+Number of dataPoints in Cluster # 365	:11
+Number of dataPoints in Cluster # 366	:37
+Number of dataPoints in Cluster # 367	:12
+Number of dataPoints in Cluster # 368	:6
+Number of dataPoints in Cluster # 369	:3
+Number of dataPoints in Cluster # 370	:10
+Number of dataPoints in Cluster # 371	:1
+Number of dataPoints in Cluster # 372	:11
+Number of dataPoints in Cluster # 373	:57
+Number of dataPoints in Cluster # 374	:4
+Number of dataPoints in Cluster # 375	:48
+Number of dataPoints in Cluster # 376	:5
+Number of dataPoints in Cluster # 377	:9
+Number of dataPoints in Cluster # 378	:6
+Number of dataPoints in Cluster # 379	:15
+Number of dataPoints in Cluster # 380	:11
+Number of dataPoints in Cluster # 381	:8
+Number of dataPoints in Cluster # 382	:5
+Number of dataPoints in Cluster # 383	:1
+Number of dataPoints in Cluster # 384	:2
+Number of dataPoints in Cluster # 385	:40
+Number of dataPoints in Cluster # 386	:10
+Number of dataPoints in Cluster # 387	:4
+Number of dataPoints in Cluster # 388	:7
+Number of dataPoints in Cluster # 389	:23
+Number of dataPoints in Cluster # 390	:13
+Number of dataPoints in Cluster # 391	:61
+Number of dataPoints in Cluster # 392	:4
+Number of dataPoints in Cluster # 393	:17
+Number of dataPoints in Cluster # 394	:7
+Number of dataPoints in Cluster # 395	:68
+Number of dataPoints in Cluster # 396	:10
+Number of dataPoints in Cluster # 397	:2
+Number of dataPoints in Cluster # 398	:8
+Number of dataPoints in Cluster # 399	:10
+Number of dataPoints in Cluster # 400	:34
+Number of dataPoints in Cluster # 401	:5
+Number of dataPoints in Cluster # 402	:5
+Number of dataPoints in Cluster # 403	:15
+Number of dataPoints in Cluster # 404	:13
+Number of dataPoints in Cluster # 405	:20
+Number of dataPoints in Cluster # 406	:16
+Number of dataPoints in Cluster # 407	:77
+Number of dataPoints in Cluster # 408	:16
+Number of dataPoints in Cluster # 409	:35
+Number of dataPoints in Cluster # 410	:43
+Number of dataPoints in Cluster # 411	:19
+Number of dataPoints in Cluster # 412	:9
+Number of dataPoints in Cluster # 413	:7
+Number of dataPoints in Cluster # 414	:5
+Number of dataPoints in Cluster # 415	:44
+Number of dataPoints in Cluster # 416	:6
+Number of dataPoints in Cluster # 417	:7
+Number of dataPoints in Cluster # 418	:8
+Number of dataPoints in Cluster # 419	:65
+Number of dataPoints in Cluster # 420	:1
+Number of dataPoints in Cluster # 421	:3
+Number of dataPoints in Cluster # 422	:18
+Number of dataPoints in Cluster # 423	:1
+Number of dataPoints in Cluster # 424	:4
+Number of dataPoints in Cluster # 425	:19
+Number of dataPoints in Cluster # 426	:3
+Number of dataPoints in Cluster # 427	:4
+Number of dataPoints in Cluster # 428	:7
+Number of dataPoints in Cluster # 429	:13
+Number of dataPoints in Cluster # 430	:8
+Number of dataPoints in Cluster # 431	:33
+Number of dataPoints in Cluster # 432	:7
+Number of dataPoints in Cluster # 433	:17
+Number of dataPoints in Cluster # 434	:40
+Number of dataPoints in Cluster # 435	:7
+Number of dataPoints in Cluster # 436	:19
+Number of dataPoints in Cluster # 437	:7
+Number of dataPoints in Cluster # 438	:21
+Number of dataPoints in Cluster # 439	:2
+Number of dataPoints in Cluster # 440	:12
+Number of dataPoints in Cluster # 441	:8
+Number of dataPoints in Cluster # 442	:2
+Number of dataPoints in Cluster # 443	:5
+Number of dataPoints in Cluster # 444	:8
+Number of dataPoints in Cluster # 445	:10
+Number of dataPoints in Cluster # 446	:5
+Number of dataPoints in Cluster # 447	:8
+Number of dataPoints in Cluster # 448	:50
+Number of dataPoints in Cluster # 449	:51
+Number of dataPoints in Cluster # 450	:6
+Number of dataPoints in Cluster # 451	:11
+Number of dataPoints in Cluster # 452	:10
+Number of dataPoints in Cluster # 453	:3
+Number of dataPoints in Cluster # 454	:4
+Number of dataPoints in Cluster # 455	:7
+Number of dataPoints in Cluster # 456	:4
+Number of dataPoints in Cluster # 457	:8
+Number of dataPoints in Cluster # 458	:4
+Number of dataPoints in Cluster # 459	:11
+Number of dataPoints in Cluster # 460	:4
+Number of dataPoints in Cluster # 461	:13
+Number of dataPoints in Cluster # 462	:1
+Number of dataPoints in Cluster # 463	:3
+Number of dataPoints in Cluster # 464	:8
+Number of dataPoints in Cluster # 465	:4
+Number of dataPoints in Cluster # 466	:7
+Number of dataPoints in Cluster # 467	:10
+Number of dataPoints in Cluster # 468	:10
+Number of dataPoints in Cluster # 469	:12
+Number of dataPoints in Cluster # 470	:19
+Number of dataPoints in Cluster # 471	:50
+Number of dataPoints in Cluster # 472	:5
+Number of dataPoints in Cluster # 473	:4
+Number of dataPoints in Cluster # 474	:10
+Number of dataPoints in Cluster # 475	:13
+Number of dataPoints in Cluster # 476	:5
+Number of dataPoints in Cluster # 477	:51
+Number of dataPoints in Cluster # 478	:4
+Number of dataPoints in Cluster # 479	:6
+Number of dataPoints in Cluster # 480	:9
+Number of dataPoints in Cluster # 481	:4
+Number of dataPoints in Cluster # 482	:3
+Number of dataPoints in Cluster # 483	:3
+Number of dataPoints in Cluster # 484	:4
+Number of dataPoints in Cluster # 485	:8
+Number of dataPoints in Cluster # 486	:49
+Number of dataPoints in Cluster # 487	:12
+Number of dataPoints in Cluster # 488	:44
+Number of dataPoints in Cluster # 489	:12
+Number of dataPoints in Cluster # 490	:2
+Number of dataPoints in Cluster # 491	:2
+Number of dataPoints in Cluster # 492	:22
+Number of dataPoints in Cluster # 493	:32
+Number of dataPoints in Cluster # 494	:25
+Number of dataPoints in Cluster # 495	:2
+Number of dataPoints in Cluster # 496	:3
+Number of dataPoints in Cluster # 497	:7
+Number of dataPoints in Cluster # 498	:45
+Number of dataPoints in Cluster # 499	:2
+Number of dataPoints in Cluster # 500	:4
+Number of dataPoints in Cluster # 501	:7
+Number of dataPoints in Cluster # 502	:3
+Number of dataPoints in Cluster # 503	:10
+Number of dataPoints in Cluster # 504	:8
+Number of dataPoints in Cluster # 505	:4
+Number of dataPoints in Cluster # 506	:8
+Number of dataPoints in Cluster # 507	:4
+Number of dataPoints in Cluster # 508	:6
+Number of dataPoints in Cluster # 509	:10
+Number of dataPoints in Cluster # 510	:23
+Number of dataPoints in Cluster # 511	:24
+Number of dataPoints in Cluster # 512	:7
+Number of dataPoints in Cluster # 513	:77
+Number of dataPoints in Cluster # 514	:31
+Number of dataPoints in Cluster # 515	:1
+Number of dataPoints in Cluster # 516	:6
+Number of dataPoints in Cluster # 517	:53
+Number of dataPoints in Cluster # 518	:54
+Number of dataPoints in Cluster # 519	:21
+Number of dataPoints in Cluster # 520	:9
+Number of dataPoints in Cluster # 521	:3
+Number of dataPoints in Cluster # 522	:7
+Number of dataPoints in Cluster # 523	:6
+Number of dataPoints in Cluster # 524	:12
+Number of dataPoints in Cluster # 525	:5
+Number of dataPoints in Cluster # 526	:14
+Number of dataPoints in Cluster # 527	:8
+Number of dataPoints in Cluster # 528	:3
+Number of dataPoints in Cluster # 529	:16
+Number of dataPoints in Cluster # 530	:6
+Number of dataPoints in Cluster # 531	:6
+Number of dataPoints in Cluster # 532	:8
+Number of dataPoints in Cluster # 533	:18
+Number of dataPoints in Cluster # 534	:2
+Number of dataPoints in Cluster # 535	:11
+Number of dataPoints in Cluster # 536	:2
+Number of dataPoints in Cluster # 537	:8
+Number of dataPoints in Cluster # 538	:9
+Number of dataPoints in Cluster # 539	:6
+Number of dataPoints in Cluster # 540	:5
+Number of dataPoints in Cluster # 541	:3
+Number of dataPoints in Cluster # 542	:12
+Number of dataPoints in Cluster # 543	:14
+Number of dataPoints in Cluster # 544	:25
+Number of dataPoints in Cluster # 545	:3
+Number of dataPoints in Cluster # 546	:6
+Number of dataPoints in Cluster # 547	:13
+Number of dataPoints in Cluster # 548	:7
+Number of dataPoints in Cluster # 549	:25
+Number of dataPoints in Cluster # 550	:10
+Number of dataPoints in Cluster # 551	:31
+Number of dataPoints in Cluster # 552	:9
+Number of dataPoints in Cluster # 553	:3
+Number of dataPoints in Cluster # 554	:2
+Number of dataPoints in Cluster # 555	:4
+Number of dataPoints in Cluster # 556	:6
+Number of dataPoints in Cluster # 557	:7
+Number of dataPoints in Cluster # 558	:4
+Number of dataPoints in Cluster # 559	:6
+Number of dataPoints in Cluster # 560	:3
+Number of dataPoints in Cluster # 561	:5
+Number of dataPoints in Cluster # 562	:4
+Number of dataPoints in Cluster # 563	:42
+Number of dataPoints in Cluster # 564	:3
+Number of dataPoints in Cluster # 565	:7
+Number of dataPoints in Cluster # 566	:5
+Number of dataPoints in Cluster # 567	:6
+Number of dataPoints in Cluster # 568	:13
+Number of dataPoints in Cluster # 569	:8
+Number of dataPoints in Cluster # 570	:5
+Number of dataPoints in Cluster # 571	:20
+Number of dataPoints in Cluster # 572	:5
+Number of dataPoints in Cluster # 573	:3
+Number of dataPoints in Cluster # 574	:15
+Number of dataPoints in Cluster # 575	:5
+Number of dataPoints in Cluster # 576	:19
+Number of dataPoints in Cluster # 577	:12
+Number of dataPoints in Cluster # 578	:8
+Number of dataPoints in Cluster # 579	:4
+Number of dataPoints in Cluster # 580	:3
+Number of dataPoints in Cluster # 581	:7
+Number of dataPoints in Cluster # 582	:4
+Number of dataPoints in Cluster # 583	:21
+Number of dataPoints in Cluster # 584	:10
+Number of dataPoints in Cluster # 585	:3
+Number of dataPoints in Cluster # 586	:5
+Number of dataPoints in Cluster # 587	:6
+Number of dataPoints in Cluster # 588	:5
+Number of dataPoints in Cluster # 589	:9
+Number of dataPoints in Cluster # 590	:9
+Number of dataPoints in Cluster # 591	:34
+Number of dataPoints in Cluster # 592	:6
+Number of dataPoints in Cluster # 593	:2
+Number of dataPoints in Cluster # 594	:66
+Number of dataPoints in Cluster # 595	:5
+Number of dataPoints in Cluster # 596	:1
+Number of dataPoints in Cluster # 597	:9
+Number of dataPoints in Cluster # 598	:8
+Number of dataPoints in Cluster # 599	:6
+Number of dataPoints in Cluster # 600	:7
+Number of dataPoints in Cluster # 601	:7
+Number of dataPoints in Cluster # 602	:12
+Number of dataPoints in Cluster # 603	:7
+Number of dataPoints in Cluster # 604	:6
+Number of dataPoints in Cluster # 605	:11
+Number of dataPoints in Cluster # 606	:6
+Number of dataPoints in Cluster # 607	:23
+Number of dataPoints in Cluster # 608	:4
+Number of dataPoints in Cluster # 609	:57
+Number of dataPoints in Cluster # 610	:15
+Number of dataPoints in Cluster # 611	:10
+Number of dataPoints in Cluster # 612	:4
+Number of dataPoints in Cluster # 613	:5
+Number of dataPoints in Cluster # 614	:9
+Number of dataPoints in Cluster # 615	:46
+Number of dataPoints in Cluster # 616	:2
+Number of dataPoints in Cluster # 617	:2
+Number of dataPoints in Cluster # 618	:3
+Number of dataPoints in Cluster # 619	:14
+Number of dataPoints in Cluster # 620	:7
+Number of dataPoints in Cluster # 621	:2
+Number of dataPoints in Cluster # 622	:4
+Number of dataPoints in Cluster # 623	:6
+Number of dataPoints in Cluster # 624	:13
+Number of dataPoints in Cluster # 625	:5
+Number of dataPoints in Cluster # 626	:10
+Number of dataPoints in Cluster # 627	:9
+Number of dataPoints in Cluster # 628	:2
+Number of dataPoints in Cluster # 629	:4
+Number of dataPoints in Cluster # 630	:18
+Number of dataPoints in Cluster # 631	:6
+Number of dataPoints in Cluster # 632	:56
+Number of dataPoints in Cluster # 633	:5
+Number of dataPoints in Cluster # 634	:7
+Number of dataPoints in Cluster # 635	:9
+Number of dataPoints in Cluster # 636	:5
+Number of dataPoints in Cluster # 637	:3
+Number of dataPoints in Cluster # 638	:26
+Number of dataPoints in Cluster # 639	:18
+Number of dataPoints in Cluster # 640	:4
+Number of dataPoints in Cluster # 641	:3
+Number of dataPoints in Cluster # 642	:6
+Number of dataPoints in Cluster # 643	:12
+Number of dataPoints in Cluster # 644	:4
+Number of dataPoints in Cluster # 645	:10
+Number of dataPoints in Cluster # 646	:3
+Number of dataPoints in Cluster # 647	:5
+Number of dataPoints in Cluster # 648	:6
+Number of dataPoints in Cluster # 649	:10
+Number of dataPoints in Cluster # 650	:7
+Number of dataPoints in Cluster # 651	:9
+Number of dataPoints in Cluster # 652	:5
+Number of dataPoints in Cluster # 653	:24
+Number of dataPoints in Cluster # 654	:3
+Number of dataPoints in Cluster # 655	:8
+Number of dataPoints in Cluster # 656	:14
+Number of dataPoints in Cluster # 657	:6
+Number of dataPoints in Cluster # 658	:12
+Number of dataPoints in Cluster # 659	:3
+Number of dataPoints in Cluster # 660	:8
+Number of dataPoints in Cluster # 661	:40
+Number of dataPoints in Cluster # 662	:2
+Number of dataPoints in Cluster # 663	:5
+Number of dataPoints in Cluster # 664	:12
+Number of dataPoints in Cluster # 665	:10
+Number of dataPoints in Cluster # 666	:4
+Number of dataPoints in Cluster # 667	:35
+Number of dataPoints in Cluster # 668	:12
+Number of dataPoints in Cluster # 669	:17
+Number of dataPoints in Cluster # 670	:5
+Number of dataPoints in Cluster # 671	:10
+Number of dataPoints in Cluster # 672	:45
+Number of dataPoints in Cluster # 673	:6
+Number of dataPoints in Cluster # 674	:4
+Number of dataPoints in Cluster # 675	:49
+Number of dataPoints in Cluster # 676	:4
+Number of dataPoints in Cluster # 677	:64
+Number of dataPoints in Cluster # 678	:10
+Number of dataPoints in Cluster # 679	:14
+Number of dataPoints in Cluster # 680	:7
+Number of dataPoints in Cluster # 681	:6
+Number of dataPoints in Cluster # 682	:20
+Number of dataPoints in Cluster # 683	:8
+Number of dataPoints in Cluster # 684	:99
+Number of dataPoints in Cluster # 685	:60
+Number of dataPoints in Cluster # 686	:40
+Number of dataPoints in Cluster # 687	:5
+Number of dataPoints in Cluster # 688	:17
+Number of dataPoints in Cluster # 689	:32
+Number of dataPoints in Cluster # 690	:13
+Number of dataPoints in Cluster # 691	:10
+Number of dataPoints in Cluster # 692	:7
+Number of dataPoints in Cluster # 693	:10
+Number of dataPoints in Cluster # 694	:43
+Number of dataPoints in Cluster # 695	:46
+Number of dataPoints in Cluster # 696	:21
+Number of dataPoints in Cluster # 697	:3
+Number of dataPoints in Cluster # 698	:7
+Number of dataPoints in Cluster # 699	:5
+Number of dataPoints in Cluster # 700	:12
+Number of dataPoints in Cluster # 701	:2
+Number of dataPoints in Cluster # 702	:14
+Number of dataPoints in Cluster # 703	:4
+Number of dataPoints in Cluster # 704	:6
+Number of dataPoints in Cluster # 705	:4
+Number of dataPoints in Cluster # 706	:6
+Number of dataPoints in Cluster # 707	:47
+Number of dataPoints in Cluster # 708	:9
+Number of dataPoints in Cluster # 709	:14
+Number of dataPoints in Cluster # 710	:36
+Number of dataPoints in Cluster # 711	:51
+Number of dataPoints in Cluster # 712	:35
+Number of dataPoints in Cluster # 713	:6
+Number of dataPoints in Cluster # 714	:12
+Number of dataPoints in Cluster # 715	:56
+Number of dataPoints in Cluster # 716	:47
+Number of dataPoints in Cluster # 717	:4
+Number of dataPoints in Cluster # 718	:14
+Number of dataPoints in Cluster # 719	:7
+Number of dataPoints in Cluster # 720	:36
+Number of dataPoints in Cluster # 721	:8
+Number of dataPoints in Cluster # 722	:85
+Number of dataPoints in Cluster # 723	:4
+Number of dataPoints in Cluster # 724	:4
+Number of dataPoints in Cluster # 725	:14
+Number of dataPoints in Cluster # 726	:10
+Number of dataPoints in Cluster # 727	:8
+Number of dataPoints in Cluster # 728	:14
+Number of dataPoints in Cluster # 729	:12
+Number of dataPoints in Cluster # 730	:3
+Number of dataPoints in Cluster # 731	:20
+Number of dataPoints in Cluster # 732	:4
+Number of dataPoints in Cluster # 733	:19
+Number of dataPoints in Cluster # 734	:51
+Number of dataPoints in Cluster # 735	:11
+Number of dataPoints in Cluster # 736	:6
+Number of dataPoints in Cluster # 737	:13
+Number of dataPoints in Cluster # 738	:8
+Number of dataPoints in Cluster # 739	:43
+Number of dataPoints in Cluster # 740	:23
+Number of dataPoints in Cluster # 741	:34
+Number of dataPoints in Cluster # 742	:43
+Number of dataPoints in Cluster # 743	:7
+Number of dataPoints in Cluster # 744	:7
+Number of dataPoints in Cluster # 745	:15
+Number of dataPoints in Cluster # 746	:3
+Number of dataPoints in Cluster # 747	:5
+Number of dataPoints in Cluster # 748	:2
+Number of dataPoints in Cluster # 749	:5
+Number of dataPoints in Cluster # 750	:6
+Number of dataPoints in Cluster # 751	:25
+Number of dataPoints in Cluster # 752	:2
+Number of dataPoints in Cluster # 753	:9
+Number of dataPoints in Cluster # 754	:5
+Number of dataPoints in Cluster # 755	:6
+Number of dataPoints in Cluster # 756	:8
+Number of dataPoints in Cluster # 757	:5
+Number of dataPoints in Cluster # 758	:28
+Number of dataPoints in Cluster # 759	:9
+Number of dataPoints in Cluster # 760	:5
+Number of dataPoints in Cluster # 761	:2
+Number of dataPoints in Cluster # 762	:7
+Number of dataPoints in Cluster # 763	:2
+Number of dataPoints in Cluster # 764	:6
+Number of dataPoints in Cluster # 765	:5
+Number of dataPoints in Cluster # 766	:12
+Number of dataPoints in Cluster # 767	:10
+Number of dataPoints in Cluster # 768	:9
+Number of dataPoints in Cluster # 769	:4
+Number of dataPoints in Cluster # 770	:19
+Number of dataPoints in Cluster # 771	:5
+Number of dataPoints in Cluster # 772	:7
+Number of dataPoints in Cluster # 773	:1
+Number of dataPoints in Cluster # 774	:5
+Number of dataPoints in Cluster # 775	:7
+Number of dataPoints in Cluster # 776	:5
+Number of dataPoints in Cluster # 777	:15
+Number of dataPoints in Cluster # 778	:8
+Number of dataPoints in Cluster # 779	:11
+Number of dataPoints in Cluster # 780	:40
+Number of dataPoints in Cluster # 781	:14
+Number of dataPoints in Cluster # 782	:6
+Number of dataPoints in Cluster # 783	:5
+Number of dataPoints in Cluster # 784	:7
+Number of dataPoints in Cluster # 785	:26
+Number of dataPoints in Cluster # 786	:5
+Number of dataPoints in Cluster # 787	:23
+Number of dataPoints in Cluster # 788	:7
+Number of dataPoints in Cluster # 789	:17
+Number of dataPoints in Cluster # 790	:13
+Number of dataPoints in Cluster # 791	:6
+Number of dataPoints in Cluster # 792	:3
+Number of dataPoints in Cluster # 793	:6
+Number of dataPoints in Cluster # 794	:4
+Number of dataPoints in Cluster # 795	:5
+Number of dataPoints in Cluster # 796	:10
+Number of dataPoints in Cluster # 797	:6
+Number of dataPoints in Cluster # 798	:6
+Number of dataPoints in Cluster # 799	:4
+Number of dataPoints in Cluster # 800	:48
+Number of dataPoints in Cluster # 801	:1
+Number of dataPoints in Cluster # 802	:8
+Number of dataPoints in Cluster # 803	:4
+Number of dataPoints in Cluster # 804	:50
+Number of dataPoints in Cluster # 805	:5
+Number of dataPoints in Cluster # 806	:9
+Number of dataPoints in Cluster # 807	:10
+Number of dataPoints in Cluster # 808	:2
+Number of dataPoints in Cluster # 809	:5
+Number of dataPoints in Cluster # 810	:2
+Number of dataPoints in Cluster # 811	:8
+Number of dataPoints in Cluster # 812	:6
+Number of dataPoints in Cluster # 813	:2
+Number of dataPoints in Cluster # 814	:5
+Number of dataPoints in Cluster # 815	:11
+Number of dataPoints in Cluster # 816	:4
+Number of dataPoints in Cluster # 817	:31
+Number of dataPoints in Cluster # 818	:4
+Number of dataPoints in Cluster # 819	:14
+Number of dataPoints in Cluster # 820	:43
+Number of dataPoints in Cluster # 821	:6
+Number of dataPoints in Cluster # 822	:6
+Number of dataPoints in Cluster # 823	:2
+Number of dataPoints in Cluster # 824	:5
+Number of dataPoints in Cluster # 825	:38
+Number of dataPoints in Cluster # 826	:15
+Number of dataPoints in Cluster # 827	:17
+Number of dataPoints in Cluster # 828	:17
+Number of dataPoints in Cluster # 829	:12
+Number of dataPoints in Cluster # 830	:11
+Number of dataPoints in Cluster # 831	:4
+Number of dataPoints in Cluster # 832	:9
+Number of dataPoints in Cluster # 833	:21
+Number of dataPoints in Cluster # 834	:2
+Number of dataPoints in Cluster # 835	:7
+Number of dataPoints in Cluster # 836	:3
+Number of dataPoints in Cluster # 837	:16
+Number of dataPoints in Cluster # 838	:7
+Number of dataPoints in Cluster # 839	:5
+Number of dataPoints in Cluster # 840	:6
+Number of dataPoints in Cluster # 841	:102
+Number of dataPoints in Cluster # 842	:15
+Number of dataPoints in Cluster # 843	:5
+Number of dataPoints in Cluster # 844	:8
+Number of dataPoints in Cluster # 845	:12
+Number of dataPoints in Cluster # 846	:17
+Number of dataPoints in Cluster # 847	:9
+Number of dataPoints in Cluster # 848	:2
+Number of dataPoints in Cluster # 849	:10
+Number of dataPoints in Cluster # 850	:6
+Number of dataPoints in Cluster # 851	:2
+Number of dataPoints in Cluster # 852	:24
+Number of dataPoints in Cluster # 853	:24
+Number of dataPoints in Cluster # 854	:1
+Number of dataPoints in Cluster # 855	:8
+Number of dataPoints in Cluster # 856	:7
+Number of dataPoints in Cluster # 857	:4
+Number of dataPoints in Cluster # 858	:4
+Number of dataPoints in Cluster # 859	:6
+Number of dataPoints in Cluster # 860	:4
+Number of dataPoints in Cluster # 861	:8
+Number of dataPoints in Cluster # 862	:10
+Number of dataPoints in Cluster # 863	:9
+Number of dataPoints in Cluster # 864	:8
+Number of dataPoints in Cluster # 865	:7
+Number of dataPoints in Cluster # 866	:44
+Number of dataPoints in Cluster # 867	:10
+Number of dataPoints in Cluster # 868	:14
+Number of dataPoints in Cluster # 869	:5
+Number of dataPoints in Cluster # 870	:2
+Number of dataPoints in Cluster # 871	:14
+Number of dataPoints in Cluster # 872	:7
+Number of dataPoints in Cluster # 873	:7
+Number of dataPoints in Cluster # 874	:5
+Number of dataPoints in Cluster # 875	:8
+Number of dataPoints in Cluster # 876	:20
+Number of dataPoints in Cluster # 877	:2
+Number of dataPoints in Cluster # 878	:3
+Number of dataPoints in Cluster # 879	:17
+Number of dataPoints in Cluster # 880	:12
+Number of dataPoints in Cluster # 881	:7
+Number of dataPoints in Cluster # 882	:4
+Number of dataPoints in Cluster # 883	:19
+Number of dataPoints in Cluster # 884	:26
+Number of dataPoints in Cluster # 885	:6
+Number of dataPoints in Cluster # 886	:4
+Number of dataPoints in Cluster # 887	:12
+Number of dataPoints in Cluster # 888	:5
+Number of dataPoints in Cluster # 889	:10
+Number of dataPoints in Cluster # 890	:2
+Number of dataPoints in Cluster # 891	:26
+Number of dataPoints in Cluster # 892	:24
+Number of dataPoints in Cluster # 893	:10
+Number of dataPoints in Cluster # 894	:15
+Number of dataPoints in Cluster # 895	:7
+Number of dataPoints in Cluster # 896	:12
+Number of dataPoints in Cluster # 897	:5
+Number of dataPoints in Cluster # 898	:32
+Number of dataPoints in Cluster # 899	:45
+Number of dataPoints in Cluster # 900	:43
+Number of dataPoints in Cluster # 901	:39
+Number of dataPoints in Cluster # 902	:9
+Number of dataPoints in Cluster # 903	:13
+Number of dataPoints in Cluster # 904	:51
+Number of dataPoints in Cluster # 905	:16
+Number of dataPoints in Cluster # 906	:8
+Number of dataPoints in Cluster # 907	:23
+Number of dataPoints in Cluster # 908	:56
+Number of dataPoints in Cluster # 909	:8
+Number of dataPoints in Cluster # 910	:3
+Number of dataPoints in Cluster # 911	:16
+Number of dataPoints in Cluster # 912	:11
+Number of dataPoints in Cluster # 913	:7
+Number of dataPoints in Cluster # 914	:4
+Number of dataPoints in Cluster # 915	:33
+Number of dataPoints in Cluster # 916	:39
+Number of dataPoints in Cluster # 917	:2
+Number of dataPoints in Cluster # 918	:5
+Number of dataPoints in Cluster # 919	:4
+Number of dataPoints in Cluster # 920	:6
+Number of dataPoints in Cluster # 921	:8
+Number of dataPoints in Cluster # 922	:11
+Number of dataPoints in Cluster # 923	:32
+Number of dataPoints in Cluster # 924	:27
+Number of dataPoints in Cluster # 925	:4
+Number of dataPoints in Cluster # 926	:18
+Number of dataPoints in Cluster # 927	:7
+Number of dataPoints in Cluster # 928	:4
+Number of dataPoints in Cluster # 929	:11
+Number of dataPoints in Cluster # 930	:11
+Number of dataPoints in Cluster # 931	:83
+Number of dataPoints in Cluster # 932	:3
+Number of dataPoints in Cluster # 933	:3
+Number of dataPoints in Cluster # 934	:22
+Number of dataPoints in Cluster # 935	:12
+Number of dataPoints in Cluster # 936	:13
+Number of dataPoints in Cluster # 937	:1
+Number of dataPoints in Cluster # 938	:13
+Number of dataPoints in Cluster # 939	:2
+Number of dataPoints in Cluster # 940	:5
+Number of dataPoints in Cluster # 941	:6
+Number of dataPoints in Cluster # 942	:37
+Number of dataPoints in Cluster # 943	:13
+Number of dataPoints in Cluster # 944	:3
+Number of dataPoints in Cluster # 945	:9
+Number of dataPoints in Cluster # 946	:11
+Number of dataPoints in Cluster # 947	:4
+Number of dataPoints in Cluster # 948	:5
+===============================================================
+
+For the GalaxyType	:1
+Number of records in main with GalaxyType	:1	:859
+Number of records in candidate with GalaxyType	:1	:51247
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	859
+Distance Metric:	Others
+Number of Attributes:	3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+KMeans Algorithm ended because the iteration count exhausted
+
+Number of dataPoints in Cluster # 0	:23
+Number of dataPoints in Cluster # 1	:128
+Number of dataPoints in Cluster # 2	:36
+Number of dataPoints in Cluster # 3	:10
+Number of dataPoints in Cluster # 4	:17
+Number of dataPoints in Cluster # 5	:7
+Number of dataPoints in Cluster # 6	:35
+Number of dataPoints in Cluster # 7	:8
+Number of dataPoints in Cluster # 8	:18
+Number of dataPoints in Cluster # 9	:142
+Number of dataPoints in Cluster # 10	:168
+Number of dataPoints in Cluster # 11	:138
+Number of dataPoints in Cluster # 12	:28
+Number of dataPoints in Cluster # 13	:10
+Number of dataPoints in Cluster # 14	:17
+Number of dataPoints in Cluster # 15	:11
+Number of dataPoints in Cluster # 16	:51
+Number of dataPoints in Cluster # 17	:9
+Number of dataPoints in Cluster # 18	:40
+Number of dataPoints in Cluster # 19	:40
+Number of dataPoints in Cluster # 20	:29
+Number of dataPoints in Cluster # 21	:50
+Number of dataPoints in Cluster # 22	:4
+Number of dataPoints in Cluster # 23	:12
+Number of dataPoints in Cluster # 24	:46
+Number of dataPoints in Cluster # 25	:19
+Number of dataPoints in Cluster # 26	:17
+Number of dataPoints in Cluster # 27	:81
+Number of dataPoints in Cluster # 28	:21
+Number of dataPoints in Cluster # 29	:20
+Number of dataPoints in Cluster # 30	:30
+Number of dataPoints in Cluster # 31	:75
+Number of dataPoints in Cluster # 32	:9
+Number of dataPoints in Cluster # 33	:693
+Number of dataPoints in Cluster # 34	:56
+Number of dataPoints in Cluster # 35	:4
+Number of dataPoints in Cluster # 36	:17
+Number of dataPoints in Cluster # 37	:36
+Number of dataPoints in Cluster # 38	:52
+Number of dataPoints in Cluster # 39	:94
+Number of dataPoints in Cluster # 40	:28
+Number of dataPoints in Cluster # 41	:52
+Number of dataPoints in Cluster # 42	:17
+Number of dataPoints in Cluster # 43	:14
+Number of dataPoints in Cluster # 44	:70
+Number of dataPoints in Cluster # 45	:122
+Number of dataPoints in Cluster # 46	:55
+Number of dataPoints in Cluster # 47	:114
+Number of dataPoints in Cluster # 48	:15
+Number of dataPoints in Cluster # 49	:2
+Number of dataPoints in Cluster # 50	:34
+Number of dataPoints in Cluster # 51	:30
+Number of dataPoints in Cluster # 52	:25
+Number of dataPoints in Cluster # 53	:7
+Number of dataPoints in Cluster # 54	:19
+Number of dataPoints in Cluster # 55	:47
+Number of dataPoints in Cluster # 56	:61
+Number of dataPoints in Cluster # 57	:7
+Number of dataPoints in Cluster # 58	:55
+Number of dataPoints in Cluster # 59	:28
+Number of dataPoints in Cluster # 60	:32
+Number of dataPoints in Cluster # 61	:8
+Number of dataPoints in Cluster # 62	:89
+Number of dataPoints in Cluster # 63	:68
+Number of dataPoints in Cluster # 64	:58
+Number of dataPoints in Cluster # 65	:15
+Number of dataPoints in Cluster # 66	:27
+Number of dataPoints in Cluster # 67	:57
+Number of dataPoints in Cluster # 68	:20
+Number of dataPoints in Cluster # 69	:100
+Number of dataPoints in Cluster # 70	:23
+Number of dataPoints in Cluster # 71	:24
+Number of dataPoints in Cluster # 72	:62
+Number of dataPoints in Cluster # 73	:24
+Number of dataPoints in Cluster # 74	:112
+Number of dataPoints in Cluster # 75	:24
+Number of dataPoints in Cluster # 76	:131
+Number of dataPoints in Cluster # 77	:19
+Number of dataPoints in Cluster # 78	:28
+Number of dataPoints in Cluster # 79	:119
+Number of dataPoints in Cluster # 80	:77
+Number of dataPoints in Cluster # 81	:87
+Number of dataPoints in Cluster # 82	:137
+Number of dataPoints in Cluster # 83	:85
+Number of dataPoints in Cluster # 84	:46
+Number of dataPoints in Cluster # 85	:54
+Number of dataPoints in Cluster # 86	:37
+Number of dataPoints in Cluster # 87	:67
+Number of dataPoints in Cluster # 88	:52
+Number of dataPoints in Cluster # 89	:149
+Number of dataPoints in Cluster # 90	:41
+Number of dataPoints in Cluster # 91	:23
+Number of dataPoints in Cluster # 92	:35
+Number of dataPoints in Cluster # 93	:25
+Number of dataPoints in Cluster # 94	:42
+Number of dataPoints in Cluster # 95	:6
+Number of dataPoints in Cluster # 96	:18
+Number of dataPoints in Cluster # 97	:106
+Number of dataPoints in Cluster # 98	:296
+Number of dataPoints in Cluster # 99	:99
+Number of dataPoints in Cluster # 100	:50
+Number of dataPoints in Cluster # 101	:20
+Number of dataPoints in Cluster # 102	:24
+Number of dataPoints in Cluster # 103	:29
+Number of dataPoints in Cluster # 104	:32
+Number of dataPoints in Cluster # 105	:69
+Number of dataPoints in Cluster # 106	:58
+Number of dataPoints in Cluster # 107	:41
+Number of dataPoints in Cluster # 108	:32
+Number of dataPoints in Cluster # 109	:38
+Number of dataPoints in Cluster # 110	:135
+Number of dataPoints in Cluster # 111	:28
+Number of dataPoints in Cluster # 112	:202
+Number of dataPoints in Cluster # 113	:36
+Number of dataPoints in Cluster # 114	:7
+Number of dataPoints in Cluster # 115	:47
+Number of dataPoints in Cluster # 116	:15
+Number of dataPoints in Cluster # 117	:12
+Number of dataPoints in Cluster # 118	:36
+Number of dataPoints in Cluster # 119	:30
+Number of dataPoints in Cluster # 120	:9
+Number of dataPoints in Cluster # 121	:39
+Number of dataPoints in Cluster # 122	:7
+Number of dataPoints in Cluster # 123	:37
+Number of dataPoints in Cluster # 124	:10
+Number of dataPoints in Cluster # 125	:20
+Number of dataPoints in Cluster # 126	:378
+Number of dataPoints in Cluster # 127	:22
+Number of dataPoints in Cluster # 128	:242
+Number of dataPoints in Cluster # 129	:10
+Number of dataPoints in Cluster # 130	:98
+Number of dataPoints in Cluster # 131	:40
+Number of dataPoints in Cluster # 132	:28
+Number of dataPoints in Cluster # 133	:24
+Number of dataPoints in Cluster # 134	:30
+Number of dataPoints in Cluster # 135	:27
+Number of dataPoints in Cluster # 136	:34
+Number of dataPoints in Cluster # 137	:25
+Number of dataPoints in Cluster # 138	:46
+Number of dataPoints in Cluster # 139	:26
+Number of dataPoints in Cluster # 140	:23
+Number of dataPoints in Cluster # 141	:48
+Number of dataPoints in Cluster # 142	:10
+Number of dataPoints in Cluster # 143	:110
+Number of dataPoints in Cluster # 144	:12
+Number of dataPoints in Cluster # 145	:5
+Number of dataPoints in Cluster # 146	:35
+Number of dataPoints in Cluster # 147	:22
+Number of dataPoints in Cluster # 148	:91
+Number of dataPoints in Cluster # 149	:24
+Number of dataPoints in Cluster # 150	:36
+Number of dataPoints in Cluster # 151	:14
+Number of dataPoints in Cluster # 152	:23
+Number of dataPoints in Cluster # 153	:11
+Number of dataPoints in Cluster # 154	:112
+Number of dataPoints in Cluster # 155	:43
+Number of dataPoints in Cluster # 156	:135
+Number of dataPoints in Cluster # 157	:24
+Number of dataPoints in Cluster # 158	:32
+Number of dataPoints in Cluster # 159	:127
+Number of dataPoints in Cluster # 160	:8
+Number of dataPoints in Cluster # 161	:27
+Number of dataPoints in Cluster # 162	:22
+Number of dataPoints in Cluster # 163	:17
+Number of dataPoints in Cluster # 164	:10
+Number of dataPoints in Cluster # 165	:25
+Number of dataPoints in Cluster # 166	:18
+Number of dataPoints in Cluster # 167	:16
+Number of dataPoints in Cluster # 168	:23
+Number of dataPoints in Cluster # 169	:7
+Number of dataPoints in Cluster # 170	:35
+Number of dataPoints in Cluster # 171	:83
+Number of dataPoints in Cluster # 172	:17
+Number of dataPoints in Cluster # 173	:21
+Number of dataPoints in Cluster # 174	:36
+Number of dataPoints in Cluster # 175	:8
+Number of dataPoints in Cluster # 176	:13
+Number of dataPoints in Cluster # 177	:16
+Number of dataPoints in Cluster # 178	:194
+Number of dataPoints in Cluster # 179	:12
+Number of dataPoints in Cluster # 180	:19
+Number of dataPoints in Cluster # 181	:26
+Number of dataPoints in Cluster # 182	:29
+Number of dataPoints in Cluster # 183	:18
+Number of dataPoints in Cluster # 184	:29
+Number of dataPoints in Cluster # 185	:55
+Number of dataPoints in Cluster # 186	:35
+Number of dataPoints in Cluster # 187	:11
+Number of dataPoints in Cluster # 188	:30
+Number of dataPoints in Cluster # 189	:29
+Number of dataPoints in Cluster # 190	:19
+Number of dataPoints in Cluster # 191	:40
+Number of dataPoints in Cluster # 192	:551
+Number of dataPoints in Cluster # 193	:220
+Number of dataPoints in Cluster # 194	:75
+Number of dataPoints in Cluster # 195	:38
+Number of dataPoints in Cluster # 196	:40
+Number of dataPoints in Cluster # 197	:29
+Number of dataPoints in Cluster # 198	:33
+Number of dataPoints in Cluster # 199	:37
+Number of dataPoints in Cluster # 200	:32
+Number of dataPoints in Cluster # 201	:19
+Number of dataPoints in Cluster # 202	:5
+Number of dataPoints in Cluster # 203	:76
+Number of dataPoints in Cluster # 204	:31
+Number of dataPoints in Cluster # 205	:34
+Number of dataPoints in Cluster # 206	:471
+Number of dataPoints in Cluster # 207	:38
+Number of dataPoints in Cluster # 208	:18
+Number of dataPoints in Cluster # 209	:133
+Number of dataPoints in Cluster # 210	:23
+Number of dataPoints in Cluster # 211	:45
+Number of dataPoints in Cluster # 212	:25
+Number of dataPoints in Cluster # 213	:15
+Number of dataPoints in Cluster # 214	:47
+Number of dataPoints in Cluster # 215	:55
+Number of dataPoints in Cluster # 216	:70
+Number of dataPoints in Cluster # 217	:133
+Number of dataPoints in Cluster # 218	:71
+Number of dataPoints in Cluster # 219	:23
+Number of dataPoints in Cluster # 220	:68
+Number of dataPoints in Cluster # 221	:44
+Number of dataPoints in Cluster # 222	:40
+Number of dataPoints in Cluster # 223	:35
+Number of dataPoints in Cluster # 224	:61
+Number of dataPoints in Cluster # 225	:77
+Number of dataPoints in Cluster # 226	:14
+Number of dataPoints in Cluster # 227	:110
+Number of dataPoints in Cluster # 228	:26
+Number of dataPoints in Cluster # 229	:18
+Number of dataPoints in Cluster # 230	:27
+Number of dataPoints in Cluster # 231	:33
+Number of dataPoints in Cluster # 232	:24
+Number of dataPoints in Cluster # 233	:34
+Number of dataPoints in Cluster # 234	:64
+Number of dataPoints in Cluster # 235	:647
+Number of dataPoints in Cluster # 236	:32
+Number of dataPoints in Cluster # 237	:13
+Number of dataPoints in Cluster # 238	:28
+Number of dataPoints in Cluster # 239	:95
+Number of dataPoints in Cluster # 240	:44
+Number of dataPoints in Cluster # 241	:61
+Number of dataPoints in Cluster # 242	:55
+Number of dataPoints in Cluster # 243	:25
+Number of dataPoints in Cluster # 244	:5
+Number of dataPoints in Cluster # 245	:82
+Number of dataPoints in Cluster # 246	:49
+Number of dataPoints in Cluster # 247	:362
+Number of dataPoints in Cluster # 248	:36
+Number of dataPoints in Cluster # 249	:19
+Number of dataPoints in Cluster # 250	:35
+Number of dataPoints in Cluster # 251	:121
+Number of dataPoints in Cluster # 252	:79
+Number of dataPoints in Cluster # 253	:56
+Number of dataPoints in Cluster # 254	:44
+Number of dataPoints in Cluster # 255	:57
+Number of dataPoints in Cluster # 256	:77
+Number of dataPoints in Cluster # 257	:49
+Number of dataPoints in Cluster # 258	:64
+Number of dataPoints in Cluster # 259	:39
+Number of dataPoints in Cluster # 260	:18
+Number of dataPoints in Cluster # 261	:39
+Number of dataPoints in Cluster # 262	:214
+Number of dataPoints in Cluster # 263	:24
+Number of dataPoints in Cluster # 264	:42
+Number of dataPoints in Cluster # 265	:33
+Number of dataPoints in Cluster # 266	:18
+Number of dataPoints in Cluster # 267	:23
+Number of dataPoints in Cluster # 268	:45
+Number of dataPoints in Cluster # 269	:50
+Number of dataPoints in Cluster # 270	:38
+Number of dataPoints in Cluster # 271	:35
+Number of dataPoints in Cluster # 272	:103
+Number of dataPoints in Cluster # 273	:30
+Number of dataPoints in Cluster # 274	:18
+Number of dataPoints in Cluster # 275	:17
+Number of dataPoints in Cluster # 276	:9
+Number of dataPoints in Cluster # 277	:90
+Number of dataPoints in Cluster # 278	:94
+Number of dataPoints in Cluster # 279	:25
+Number of dataPoints in Cluster # 280	:60
+Number of dataPoints in Cluster # 281	:12
+Number of dataPoints in Cluster # 282	:105
+Number of dataPoints in Cluster # 283	:14
+Number of dataPoints in Cluster # 284	:9
+Number of dataPoints in Cluster # 285	:13
+Number of dataPoints in Cluster # 286	:44
+Number of dataPoints in Cluster # 287	:43
+Number of dataPoints in Cluster # 288	:46
+Number of dataPoints in Cluster # 289	:40
+Number of dataPoints in Cluster # 290	:43
+Number of dataPoints in Cluster # 291	:71
+Number of dataPoints in Cluster # 292	:34
+Number of dataPoints in Cluster # 293	:6
+Number of dataPoints in Cluster # 294	:48
+Number of dataPoints in Cluster # 295	:27
+Number of dataPoints in Cluster # 296	:22
+Number of dataPoints in Cluster # 297	:35
+Number of dataPoints in Cluster # 298	:110
+Number of dataPoints in Cluster # 299	:19
+Number of dataPoints in Cluster # 300	:28
+Number of dataPoints in Cluster # 301	:101
+Number of dataPoints in Cluster # 302	:12
+Number of dataPoints in Cluster # 303	:48
+Number of dataPoints in Cluster # 304	:35
+Number of dataPoints in Cluster # 305	:116
+Number of dataPoints in Cluster # 306	:126
+Number of dataPoints in Cluster # 307	:38
+Number of dataPoints in Cluster # 308	:218
+Number of dataPoints in Cluster # 309	:35
+Number of dataPoints in Cluster # 310	:55
+Number of dataPoints in Cluster # 311	:89
+Number of dataPoints in Cluster # 312	:45
+Number of dataPoints in Cluster # 313	:149
+Number of dataPoints in Cluster # 314	:54
+Number of dataPoints in Cluster # 315	:49
+Number of dataPoints in Cluster # 316	:37
+Number of dataPoints in Cluster # 317	:12
+Number of dataPoints in Cluster # 318	:21
+Number of dataPoints in Cluster # 319	:32
+Number of dataPoints in Cluster # 320	:164
+Number of dataPoints in Cluster # 321	:2
+Number of dataPoints in Cluster # 322	:39
+Number of dataPoints in Cluster # 323	:66
+Number of dataPoints in Cluster # 324	:11
+Number of dataPoints in Cluster # 325	:26
+Number of dataPoints in Cluster # 326	:75
+Number of dataPoints in Cluster # 327	:42
+Number of dataPoints in Cluster # 328	:34
+Number of dataPoints in Cluster # 329	:17
+Number of dataPoints in Cluster # 330	:112
+Number of dataPoints in Cluster # 331	:8
+Number of dataPoints in Cluster # 332	:262
+Number of dataPoints in Cluster # 333	:55
+Number of dataPoints in Cluster # 334	:71
+Number of dataPoints in Cluster # 335	:118
+Number of dataPoints in Cluster # 336	:66
+Number of dataPoints in Cluster # 337	:34
+Number of dataPoints in Cluster # 338	:12
+Number of dataPoints in Cluster # 339	:28
+Number of dataPoints in Cluster # 340	:20
+Number of dataPoints in Cluster # 341	:51
+Number of dataPoints in Cluster # 342	:29
+Number of dataPoints in Cluster # 343	:1
+Number of dataPoints in Cluster # 344	:24
+Number of dataPoints in Cluster # 345	:36
+Number of dataPoints in Cluster # 346	:234
+Number of dataPoints in Cluster # 347	:42
+Number of dataPoints in Cluster # 348	:18
+Number of dataPoints in Cluster # 349	:21
+Number of dataPoints in Cluster # 350	:46
+Number of dataPoints in Cluster # 351	:291
+Number of dataPoints in Cluster # 352	:106
+Number of dataPoints in Cluster # 353	:50
+Number of dataPoints in Cluster # 354	:101
+Number of dataPoints in Cluster # 355	:82
+Number of dataPoints in Cluster # 356	:10
+Number of dataPoints in Cluster # 357	:9
+Number of dataPoints in Cluster # 358	:17
+Number of dataPoints in Cluster # 359	:48
+Number of dataPoints in Cluster # 360	:33
+Number of dataPoints in Cluster # 361	:64
+Number of dataPoints in Cluster # 362	:27
+Number of dataPoints in Cluster # 363	:29
+Number of dataPoints in Cluster # 364	:37
+Number of dataPoints in Cluster # 365	:53
+Number of dataPoints in Cluster # 366	:48
+Number of dataPoints in Cluster # 367	:20
+Number of dataPoints in Cluster # 368	:33
+Number of dataPoints in Cluster # 369	:52
+Number of dataPoints in Cluster # 370	:32
+Number of dataPoints in Cluster # 371	:35
+Number of dataPoints in Cluster # 372	:42
+Number of dataPoints in Cluster # 373	:38
+Number of dataPoints in Cluster # 374	:56
+Number of dataPoints in Cluster # 375	:49
+Number of dataPoints in Cluster # 376	:35
+Number of dataPoints in Cluster # 377	:16
+Number of dataPoints in Cluster # 378	:75
+Number of dataPoints in Cluster # 379	:76
+Number of dataPoints in Cluster # 380	:47
+Number of dataPoints in Cluster # 381	:56
+Number of dataPoints in Cluster # 382	:4
+Number of dataPoints in Cluster # 383	:15
+Number of dataPoints in Cluster # 384	:51
+Number of dataPoints in Cluster # 385	:51
+Number of dataPoints in Cluster # 386	:11
+Number of dataPoints in Cluster # 387	:15
+Number of dataPoints in Cluster # 388	:13
+Number of dataPoints in Cluster # 389	:22
+Number of dataPoints in Cluster # 390	:54
+Number of dataPoints in Cluster # 391	:120
+Number of dataPoints in Cluster # 392	:74
+Number of dataPoints in Cluster # 393	:69
+Number of dataPoints in Cluster # 394	:18
+Number of dataPoints in Cluster # 395	:16
+Number of dataPoints in Cluster # 396	:13
+Number of dataPoints in Cluster # 397	:103
+Number of dataPoints in Cluster # 398	:141
+Number of dataPoints in Cluster # 399	:155
+Number of dataPoints in Cluster # 400	:31
+Number of dataPoints in Cluster # 401	:30
+Number of dataPoints in Cluster # 402	:23
+Number of dataPoints in Cluster # 403	:10
+Number of dataPoints in Cluster # 404	:37
+Number of dataPoints in Cluster # 405	:45
+Number of dataPoints in Cluster # 406	:26
+Number of dataPoints in Cluster # 407	:23
+Number of dataPoints in Cluster # 408	:7
+Number of dataPoints in Cluster # 409	:77
+Number of dataPoints in Cluster # 410	:24
+Number of dataPoints in Cluster # 411	:153
+Number of dataPoints in Cluster # 412	:135
+Number of dataPoints in Cluster # 413	:12
+Number of dataPoints in Cluster # 414	:18
+Number of dataPoints in Cluster # 415	:69
+Number of dataPoints in Cluster # 416	:15
+Number of dataPoints in Cluster # 417	:86
+Number of dataPoints in Cluster # 418	:46
+Number of dataPoints in Cluster # 419	:33
+Number of dataPoints in Cluster # 420	:10
+Number of dataPoints in Cluster # 421	:38
+Number of dataPoints in Cluster # 422	:53
+Number of dataPoints in Cluster # 423	:29
+Number of dataPoints in Cluster # 424	:23
+Number of dataPoints in Cluster # 425	:76
+Number of dataPoints in Cluster # 426	:35
+Number of dataPoints in Cluster # 427	:15
+Number of dataPoints in Cluster # 428	:29
+Number of dataPoints in Cluster # 429	:2
+Number of dataPoints in Cluster # 430	:869
+Number of dataPoints in Cluster # 431	:37
+Number of dataPoints in Cluster # 432	:14
+Number of dataPoints in Cluster # 433	:19
+Number of dataPoints in Cluster # 434	:17
+Number of dataPoints in Cluster # 435	:34
+Number of dataPoints in Cluster # 436	:10
+Number of dataPoints in Cluster # 437	:25
+Number of dataPoints in Cluster # 438	:114
+Number of dataPoints in Cluster # 439	:50
+Number of dataPoints in Cluster # 440	:32
+Number of dataPoints in Cluster # 441	:65
+Number of dataPoints in Cluster # 442	:118
+Number of dataPoints in Cluster # 443	:15
+Number of dataPoints in Cluster # 444	:37
+Number of dataPoints in Cluster # 445	:98
+Number of dataPoints in Cluster # 446	:107
+Number of dataPoints in Cluster # 447	:1
+Number of dataPoints in Cluster # 448	:30
+Number of dataPoints in Cluster # 449	:34
+Number of dataPoints in Cluster # 450	:93
+Number of dataPoints in Cluster # 451	:93
+Number of dataPoints in Cluster # 452	:31
+Number of dataPoints in Cluster # 453	:56
+Number of dataPoints in Cluster # 454	:43
+Number of dataPoints in Cluster # 455	:35
+Number of dataPoints in Cluster # 456	:62
+Number of dataPoints in Cluster # 457	:22
+Number of dataPoints in Cluster # 458	:48
+Number of dataPoints in Cluster # 459	:42
+Number of dataPoints in Cluster # 460	:70
+Number of dataPoints in Cluster # 461	:12
+Number of dataPoints in Cluster # 462	:52
+Number of dataPoints in Cluster # 463	:178
+Number of dataPoints in Cluster # 464	:53
+Number of dataPoints in Cluster # 465	:63
+Number of dataPoints in Cluster # 466	:43
+Number of dataPoints in Cluster # 467	:13
+Number of dataPoints in Cluster # 468	:51
+Number of dataPoints in Cluster # 469	:25
+Number of dataPoints in Cluster # 470	:59
+Number of dataPoints in Cluster # 471	:5
+Number of dataPoints in Cluster # 472	:22
+Number of dataPoints in Cluster # 473	:80
+Number of dataPoints in Cluster # 474	:9
+Number of dataPoints in Cluster # 475	:55
+Number of dataPoints in Cluster # 476	:57
+Number of dataPoints in Cluster # 477	:65
+Number of dataPoints in Cluster # 478	:24
+Number of dataPoints in Cluster # 479	:152
+Number of dataPoints in Cluster # 480	:33
+Number of dataPoints in Cluster # 481	:15
+Number of dataPoints in Cluster # 482	:24
+Number of dataPoints in Cluster # 483	:69
+Number of dataPoints in Cluster # 484	:93
+Number of dataPoints in Cluster # 485	:16
+Number of dataPoints in Cluster # 486	:838
+Number of dataPoints in Cluster # 487	:31
+Number of dataPoints in Cluster # 488	:35
+Number of dataPoints in Cluster # 489	:23
+Number of dataPoints in Cluster # 490	:17
+Number of dataPoints in Cluster # 491	:14
+Number of dataPoints in Cluster # 492	:30
+Number of dataPoints in Cluster # 493	:91
+Number of dataPoints in Cluster # 494	:25
+Number of dataPoints in Cluster # 495	:44
+Number of dataPoints in Cluster # 496	:43
+Number of dataPoints in Cluster # 497	:48
+Number of dataPoints in Cluster # 498	:3
+Number of dataPoints in Cluster # 499	:14
+Number of dataPoints in Cluster # 500	:22
+Number of dataPoints in Cluster # 501	:38
+Number of dataPoints in Cluster # 502	:28
+Number of dataPoints in Cluster # 503	:12
+Number of dataPoints in Cluster # 504	:24
+Number of dataPoints in Cluster # 505	:7
+Number of dataPoints in Cluster # 506	:6
+Number of dataPoints in Cluster # 507	:1
+Number of dataPoints in Cluster # 508	:20
+Number of dataPoints in Cluster # 509	:12
+Number of dataPoints in Cluster # 510	:29
+Number of dataPoints in Cluster # 511	:64
+Number of dataPoints in Cluster # 512	:12
+Number of dataPoints in Cluster # 513	:11
+Number of dataPoints in Cluster # 514	:35
+Number of dataPoints in Cluster # 515	:123
+Number of dataPoints in Cluster # 516	:35
+Number of dataPoints in Cluster # 517	:77
+Number of dataPoints in Cluster # 518	:49
+Number of dataPoints in Cluster # 519	:36
+Number of dataPoints in Cluster # 520	:24
+Number of dataPoints in Cluster # 521	:10
+Number of dataPoints in Cluster # 522	:62
+Number of dataPoints in Cluster # 523	:102
+Number of dataPoints in Cluster # 524	:23
+Number of dataPoints in Cluster # 525	:146
+Number of dataPoints in Cluster # 526	:118
+Number of dataPoints in Cluster # 527	:14
+Number of dataPoints in Cluster # 528	:25
+Number of dataPoints in Cluster # 529	:60
+Number of dataPoints in Cluster # 530	:33
+Number of dataPoints in Cluster # 531	:66
+Number of dataPoints in Cluster # 532	:26
+Number of dataPoints in Cluster # 533	:69
+Number of dataPoints in Cluster # 534	:134
+Number of dataPoints in Cluster # 535	:116
+Number of dataPoints in Cluster # 536	:6
+Number of dataPoints in Cluster # 537	:40
+Number of dataPoints in Cluster # 538	:77
+Number of dataPoints in Cluster # 539	:6
+Number of dataPoints in Cluster # 540	:136
+Number of dataPoints in Cluster # 541	:29
+Number of dataPoints in Cluster # 542	:40
+Number of dataPoints in Cluster # 543	:62
+Number of dataPoints in Cluster # 544	:133
+Number of dataPoints in Cluster # 545	:74
+Number of dataPoints in Cluster # 546	:22
+Number of dataPoints in Cluster # 547	:1080
+Number of dataPoints in Cluster # 548	:20
+Number of dataPoints in Cluster # 549	:22
+Number of dataPoints in Cluster # 550	:5
+Number of dataPoints in Cluster # 551	:8
+Number of dataPoints in Cluster # 552	:28
+Number of dataPoints in Cluster # 553	:29
+Number of dataPoints in Cluster # 554	:38
+Number of dataPoints in Cluster # 555	:24
+Number of dataPoints in Cluster # 556	:28
+Number of dataPoints in Cluster # 557	:24
+Number of dataPoints in Cluster # 558	:56
+Number of dataPoints in Cluster # 559	:126
+Number of dataPoints in Cluster # 560	:120
+Number of dataPoints in Cluster # 561	:41
+Number of dataPoints in Cluster # 562	:15
+Number of dataPoints in Cluster # 563	:22
+Number of dataPoints in Cluster # 564	:49
+Number of dataPoints in Cluster # 565	:29
+Number of dataPoints in Cluster # 566	:17
+Number of dataPoints in Cluster # 567	:33
+Number of dataPoints in Cluster # 568	:27
+Number of dataPoints in Cluster # 569	:76
+Number of dataPoints in Cluster # 570	:48
+Number of dataPoints in Cluster # 571	:52
+Number of dataPoints in Cluster # 572	:40
+Number of dataPoints in Cluster # 573	:77
+Number of dataPoints in Cluster # 574	:63
+Number of dataPoints in Cluster # 575	:19
+Number of dataPoints in Cluster # 576	:150
+Number of dataPoints in Cluster # 577	:60
+Number of dataPoints in Cluster # 578	:57
+Number of dataPoints in Cluster # 579	:149
+Number of dataPoints in Cluster # 580	:52
+Number of dataPoints in Cluster # 581	:22
+Number of dataPoints in Cluster # 582	:60
+Number of dataPoints in Cluster # 583	:44
+Number of dataPoints in Cluster # 584	:17
+Number of dataPoints in Cluster # 585	:62
+Number of dataPoints in Cluster # 586	:303
+Number of dataPoints in Cluster # 587	:1169
+Number of dataPoints in Cluster # 588	:43
+Number of dataPoints in Cluster # 589	:12
+Number of dataPoints in Cluster # 590	:256
+Number of dataPoints in Cluster # 591	:17
+Number of dataPoints in Cluster # 592	:407
+Number of dataPoints in Cluster # 593	:119
+Number of dataPoints in Cluster # 594	:91
+Number of dataPoints in Cluster # 595	:8
+Number of dataPoints in Cluster # 596	:41
+Number of dataPoints in Cluster # 597	:8
+Number of dataPoints in Cluster # 598	:40
+Number of dataPoints in Cluster # 599	:22
+Number of dataPoints in Cluster # 600	:194
+Number of dataPoints in Cluster # 601	:26
+Number of dataPoints in Cluster # 602	:37
+Number of dataPoints in Cluster # 603	:44
+Number of dataPoints in Cluster # 604	:19
+Number of dataPoints in Cluster # 605	:18
+Number of dataPoints in Cluster # 606	:61
+Number of dataPoints in Cluster # 607	:20
+Number of dataPoints in Cluster # 608	:42
+Number of dataPoints in Cluster # 609	:10
+Number of dataPoints in Cluster # 610	:15
+Number of dataPoints in Cluster # 611	:47
+Number of dataPoints in Cluster # 612	:5
+Number of dataPoints in Cluster # 613	:56
+Number of dataPoints in Cluster # 614	:21
+Number of dataPoints in Cluster # 615	:39
+Number of dataPoints in Cluster # 616	:34
+Number of dataPoints in Cluster # 617	:22
+Number of dataPoints in Cluster # 618	:63
+Number of dataPoints in Cluster # 619	:64
+Number of dataPoints in Cluster # 620	:69
+Number of dataPoints in Cluster # 621	:8
+Number of dataPoints in Cluster # 622	:105
+Number of dataPoints in Cluster # 623	:33
+Number of dataPoints in Cluster # 624	:30
+Number of dataPoints in Cluster # 625	:28
+Number of dataPoints in Cluster # 626	:51
+Number of dataPoints in Cluster # 627	:52
+Number of dataPoints in Cluster # 628	:14
+Number of dataPoints in Cluster # 629	:25
+Number of dataPoints in Cluster # 630	:37
+Number of dataPoints in Cluster # 631	:38
+Number of dataPoints in Cluster # 632	:13
+Number of dataPoints in Cluster # 633	:28
+Number of dataPoints in Cluster # 634	:93
+Number of dataPoints in Cluster # 635	:20
+Number of dataPoints in Cluster # 636	:4
+Number of dataPoints in Cluster # 637	:30
+Number of dataPoints in Cluster # 638	:157
+Number of dataPoints in Cluster # 639	:24
+Number of dataPoints in Cluster # 640	:6
+Number of dataPoints in Cluster # 641	:26
+Number of dataPoints in Cluster # 642	:88
+Number of dataPoints in Cluster # 643	:21
+Number of dataPoints in Cluster # 644	:66
+Number of dataPoints in Cluster # 645	:27
+Number of dataPoints in Cluster # 646	:45
+Number of dataPoints in Cluster # 647	:27
+Number of dataPoints in Cluster # 648	:119
+Number of dataPoints in Cluster # 649	:92
+Number of dataPoints in Cluster # 650	:24
+Number of dataPoints in Cluster # 651	:21
+Number of dataPoints in Cluster # 652	:21
+Number of dataPoints in Cluster # 653	:22
+Number of dataPoints in Cluster # 654	:200
+Number of dataPoints in Cluster # 655	:104
+Number of dataPoints in Cluster # 656	:51
+Number of dataPoints in Cluster # 657	:37
+Number of dataPoints in Cluster # 658	:37
+Number of dataPoints in Cluster # 659	:117
+Number of dataPoints in Cluster # 660	:36
+Number of dataPoints in Cluster # 661	:15
+Number of dataPoints in Cluster # 662	:29
+Number of dataPoints in Cluster # 663	:13
+Number of dataPoints in Cluster # 664	:34
+Number of dataPoints in Cluster # 665	:4
+Number of dataPoints in Cluster # 666	:13
+Number of dataPoints in Cluster # 667	:76
+Number of dataPoints in Cluster # 668	:17
+Number of dataPoints in Cluster # 669	:47
+Number of dataPoints in Cluster # 670	:10
+Number of dataPoints in Cluster # 671	:139
+Number of dataPoints in Cluster # 672	:55
+Number of dataPoints in Cluster # 673	:60
+Number of dataPoints in Cluster # 674	:33
+Number of dataPoints in Cluster # 675	:25
+Number of dataPoints in Cluster # 676	:31
+Number of dataPoints in Cluster # 677	:67
+Number of dataPoints in Cluster # 678	:54
+Number of dataPoints in Cluster # 679	:309
+Number of dataPoints in Cluster # 680	:24
+Number of dataPoints in Cluster # 681	:36
+Number of dataPoints in Cluster # 682	:49
+Number of dataPoints in Cluster # 683	:19
+Number of dataPoints in Cluster # 684	:17
+Number of dataPoints in Cluster # 685	:20
+Number of dataPoints in Cluster # 686	:247
+Number of dataPoints in Cluster # 687	:43
+Number of dataPoints in Cluster # 688	:25
+Number of dataPoints in Cluster # 689	:301
+Number of dataPoints in Cluster # 690	:47
+Number of dataPoints in Cluster # 691	:28
+Number of dataPoints in Cluster # 692	:88
+Number of dataPoints in Cluster # 693	:12
+Number of dataPoints in Cluster # 694	:145
+Number of dataPoints in Cluster # 695	:27
+Number of dataPoints in Cluster # 696	:15
+Number of dataPoints in Cluster # 697	:27
+Number of dataPoints in Cluster # 698	:56
+Number of dataPoints in Cluster # 699	:41
+Number of dataPoints in Cluster # 700	:11
+Number of dataPoints in Cluster # 701	:29
+Number of dataPoints in Cluster # 702	:29
+Number of dataPoints in Cluster # 703	:55
+Number of dataPoints in Cluster # 704	:80
+Number of dataPoints in Cluster # 705	:29
+Number of dataPoints in Cluster # 706	:62
+Number of dataPoints in Cluster # 707	:34
+Number of dataPoints in Cluster # 708	:23
+Number of dataPoints in Cluster # 709	:23
+Number of dataPoints in Cluster # 710	:33
+Number of dataPoints in Cluster # 711	:61
+Number of dataPoints in Cluster # 712	:29
+Number of dataPoints in Cluster # 713	:72
+Number of dataPoints in Cluster # 714	:35
+Number of dataPoints in Cluster # 715	:161
+Number of dataPoints in Cluster # 716	:47
+Number of dataPoints in Cluster # 717	:17
+Number of dataPoints in Cluster # 718	:23
+Number of dataPoints in Cluster # 719	:57
+Number of dataPoints in Cluster # 720	:21
+Number of dataPoints in Cluster # 721	:88
+Number of dataPoints in Cluster # 722	:7
+Number of dataPoints in Cluster # 723	:20
+Number of dataPoints in Cluster # 724	:20
+Number of dataPoints in Cluster # 725	:24
+Number of dataPoints in Cluster # 726	:1
+Number of dataPoints in Cluster # 727	:49
+Number of dataPoints in Cluster # 728	:139
+Number of dataPoints in Cluster # 729	:53
+Number of dataPoints in Cluster # 730	:40
+Number of dataPoints in Cluster # 731	:12
+Number of dataPoints in Cluster # 732	:38
+Number of dataPoints in Cluster # 733	:14
+Number of dataPoints in Cluster # 734	:28
+Number of dataPoints in Cluster # 735	:155
+Number of dataPoints in Cluster # 736	:34
+Number of dataPoints in Cluster # 737	:13
+Number of dataPoints in Cluster # 738	:42
+Number of dataPoints in Cluster # 739	:27
+Number of dataPoints in Cluster # 740	:92
+Number of dataPoints in Cluster # 741	:7
+Number of dataPoints in Cluster # 742	:44
+Number of dataPoints in Cluster # 743	:230
+Number of dataPoints in Cluster # 744	:52
+Number of dataPoints in Cluster # 745	:9
+Number of dataPoints in Cluster # 746	:70
+Number of dataPoints in Cluster # 747	:22
+Number of dataPoints in Cluster # 748	:56
+Number of dataPoints in Cluster # 749	:53
+Number of dataPoints in Cluster # 750	:492
+Number of dataPoints in Cluster # 751	:84
+Number of dataPoints in Cluster # 752	:11
+Number of dataPoints in Cluster # 753	:23
+Number of dataPoints in Cluster # 754	:80
+Number of dataPoints in Cluster # 755	:108
+Number of dataPoints in Cluster # 756	:77
+Number of dataPoints in Cluster # 757	:68
+Number of dataPoints in Cluster # 758	:77
+Number of dataPoints in Cluster # 759	:25
+Number of dataPoints in Cluster # 760	:28
+Number of dataPoints in Cluster # 761	:25
+Number of dataPoints in Cluster # 762	:15
+Number of dataPoints in Cluster # 763	:40
+Number of dataPoints in Cluster # 764	:106
+Number of dataPoints in Cluster # 765	:132
+Number of dataPoints in Cluster # 766	:38
+Number of dataPoints in Cluster # 767	:101
+Number of dataPoints in Cluster # 768	:39
+Number of dataPoints in Cluster # 769	:23
+Number of dataPoints in Cluster # 770	:55
+Number of dataPoints in Cluster # 771	:28
+Number of dataPoints in Cluster # 772	:12
+Number of dataPoints in Cluster # 773	:54
+Number of dataPoints in Cluster # 774	:24
+Number of dataPoints in Cluster # 775	:27
+Number of dataPoints in Cluster # 776	:64
+Number of dataPoints in Cluster # 777	:52
+Number of dataPoints in Cluster # 778	:16
+Number of dataPoints in Cluster # 779	:59
+Number of dataPoints in Cluster # 780	:17
+Number of dataPoints in Cluster # 781	:28
+Number of dataPoints in Cluster # 782	:13
+Number of dataPoints in Cluster # 783	:36
+Number of dataPoints in Cluster # 784	:39
+Number of dataPoints in Cluster # 785	:4
+Number of dataPoints in Cluster # 786	:32
+Number of dataPoints in Cluster # 787	:35
+Number of dataPoints in Cluster # 788	:29
+Number of dataPoints in Cluster # 789	:27
+Number of dataPoints in Cluster # 790	:142
+Number of dataPoints in Cluster # 791	:42
+Number of dataPoints in Cluster # 792	:1174
+Number of dataPoints in Cluster # 793	:34
+Number of dataPoints in Cluster # 794	:15
+Number of dataPoints in Cluster # 795	:9
+Number of dataPoints in Cluster # 796	:66
+Number of dataPoints in Cluster # 797	:25
+Number of dataPoints in Cluster # 798	:11
+Number of dataPoints in Cluster # 799	:73
+Number of dataPoints in Cluster # 800	:23
+Number of dataPoints in Cluster # 801	:126
+Number of dataPoints in Cluster # 802	:42
+Number of dataPoints in Cluster # 803	:97
+Number of dataPoints in Cluster # 804	:26
+Number of dataPoints in Cluster # 805	:50
+Number of dataPoints in Cluster # 806	:168
+Number of dataPoints in Cluster # 807	:19
+Number of dataPoints in Cluster # 808	:32
+Number of dataPoints in Cluster # 809	:4
+Number of dataPoints in Cluster # 810	:44
+Number of dataPoints in Cluster # 811	:7
+Number of dataPoints in Cluster # 812	:17
+Number of dataPoints in Cluster # 813	:11
+Number of dataPoints in Cluster # 814	:25
+Number of dataPoints in Cluster # 815	:25
+Number of dataPoints in Cluster # 816	:73
+Number of dataPoints in Cluster # 817	:59
+Number of dataPoints in Cluster # 818	:81
+Number of dataPoints in Cluster # 819	:89
+Number of dataPoints in Cluster # 820	:22
+Number of dataPoints in Cluster # 821	:41
+Number of dataPoints in Cluster # 822	:25
+Number of dataPoints in Cluster # 823	:36
+Number of dataPoints in Cluster # 824	:18
+Number of dataPoints in Cluster # 825	:55
+Number of dataPoints in Cluster # 826	:12
+Number of dataPoints in Cluster # 827	:52
+Number of dataPoints in Cluster # 828	:52
+Number of dataPoints in Cluster # 829	:12
+Number of dataPoints in Cluster # 830	:17
+Number of dataPoints in Cluster # 831	:83
+Number of dataPoints in Cluster # 832	:138
+Number of dataPoints in Cluster # 833	:9
+Number of dataPoints in Cluster # 834	:45
+Number of dataPoints in Cluster # 835	:48
+Number of dataPoints in Cluster # 836	:252
+Number of dataPoints in Cluster # 837	:20
+Number of dataPoints in Cluster # 838	:44
+Number of dataPoints in Cluster # 839	:13
+Number of dataPoints in Cluster # 840	:248
+Number of dataPoints in Cluster # 841	:21
+Number of dataPoints in Cluster # 842	:24
+Number of dataPoints in Cluster # 843	:46
+Number of dataPoints in Cluster # 844	:50
+Number of dataPoints in Cluster # 845	:27
+Number of dataPoints in Cluster # 846	:146
+Number of dataPoints in Cluster # 847	:646
+Number of dataPoints in Cluster # 848	:51
+Number of dataPoints in Cluster # 849	:24
+Number of dataPoints in Cluster # 850	:48
+Number of dataPoints in Cluster # 851	:24
+Number of dataPoints in Cluster # 852	:26
+Number of dataPoints in Cluster # 853	:148
+Number of dataPoints in Cluster # 854	:29
+Number of dataPoints in Cluster # 855	:74
+Number of dataPoints in Cluster # 856	:55
+Number of dataPoints in Cluster # 857	:41
+Number of dataPoints in Cluster # 858	:67
+===============================================================
+
+For the GalaxyType	:2
+Number of records in main with GalaxyType	:2	:5438
+Number of records in candidate with GalaxyType	:2	:697905
+
+===============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implementing K means Clustering Algorithm with:
+Number of Cluster:	5438
+Distance Metric:	Others
+Number of Attributes:	3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+===============================================================
+Started at	:2013/10/15 12:40:27
+Started at	:2013/10/15 16:28:28
+Total execution time (in minutes): 228
+===============================================================
