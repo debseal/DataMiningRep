@@ -1,0 +1,50 @@
+\documentclass{article}
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+\textheight 8.9in
+\usepackage{amsfonts}
+\oddsidemargin 0pt
+\evensidemargin \oddsidemargin
+
+\begin{document}
+\title{ CSCI-B 565 DATA MINING \\
+Homework 1 \\
+Morning Class\\
+Computer Science Core\\Fall 2013\\Indiana University}
+\author{ $Name\\ debseal@indiana.edu}
+\maketitle
+All the work herein is solely mine.
+
+\begin{enumerate}
+	\item[Problem] 2 
+		\emph{Answer}
+		\begin{table}[h]
+			\caption{$\Delta$} 
+			\centering
+			\begin{tabular}{cc r}
+				\hline
+				\multicolumn{2}{c}{$\delta$} & l \\
+				\hline
+				#foreach($inp in $inpXY)
+				{$inp[1]} & {$inp[2]} & {$inp[3]} \\
+				#end
+			\end{tabular}	
+		\end{table}	
+		
+		\begin{table}[h]
+				\caption{Output} 
+				\centering
+				\begin{tabular}{ ccc r}
+					\hline
+					\multicolumn{3}{c}{$\hat{f}$} & Correctness \\
+					\hline
+					#foreach($out in $outVal)
+					{$out[0]} & {$out[1]} & {$out[2]} & {$out[3]}\\
+					#end
+					\hline
+				\end{tabular}
+		\end{table}
+\end{enumerate}
+\hline
+\end{document}

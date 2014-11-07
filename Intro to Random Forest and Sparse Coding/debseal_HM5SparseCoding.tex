@@ -1,0 +1,120 @@
+
+\documentclass[journal]{IEEEtran}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{algorithm}
+\usepackage{caption}
+\usepackage{algpseudocode}
+\usepackage{listings} 
+\usepackage{graphicx}
+\usepackage{pseudocode}
+\usepackage[noae]{Sweave}
+\usepackage{hyperref}
+\begin{document}
+
+\title{ Introduction to Sparse Coding}
+
+\author{Debpriya~Seal\\,% <-this % stops a space
+\IEEEauthorblockA{School~of~Informatics~and~Computing\\
+Indiana~University\\
+Bloomington,~Indiana~47405-7000\\
+Email: debseal@indiana.edu}
+\thanks{Prof. M Dailklic with Indiana University for consistent support and encouragement}% <-this % stops a space
+}
+
+% The paper headers
+\markboth{B565: Data Mining, Assignment V}%
+{B565: Data Mining, Assignment V}
+\maketitle
+
+
+\begin{abstract}
+%\boldmath
+This paper tries to introduce a beginner to the concept of sparse coding. It does not deal with the advance concepts.
+\end{abstract}
+\begin{IEEEkeywords}
+Sparse Coding, Principal Component Analysis(PCA). Deep Learning
+\end{IEEEkeywords}
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+
+\subsection{For a layman}
+\IEEEPARstart{S}{parse} Coding is an algorithm to come up with compact and more strong predictors for any domain like images, audio etc. And this is beccause all the learning algortihm we have in field of computer science relies heavily on the set of predictors which any algortihm uses to classify/predict things. And these features are hand picked. However, you would like computer him/herself to find the important predicters. And Sparse Coding algorithms help you to achieve the same.A typical application would be the case when you have huge predictors and many of them are sparse. Now you would like to have compact and dense predictors with less values in them.
+\subsection{Formally}
+\IEEEPARstart{S}{parse} Coding  is an unsupervised algorithm which help with finding compact and clear representation of any thing.The field of Machine Learning has benefitted Data Mining beyond imagination. However, there is very big dependency of any machine learning algorithm. And i.e. that of "good feature" to represent a classification/refgression problem.And generally these features are handpicked by the exper to these domains. As the saying goes \emph{"To err is human"}. So you would like even this to be decided somehow by the machine, and sparse coding provides you one way to achieve the same with \emph{unlabeled data}. Another application from where it gets its name is, when you have huge features all of them being sparse, you would really like to get some more compact and strong feature set rahter than huge sparse features. Sparse Coding has application here as well. As with this would increase the performance of any algorithm. As a bunch of sparse features are only going to eat up your processing time.
+
+Now you may see a close resemblance between Sparse Coding and Principal Component Analysis(PCA). \textbf{Principal Component Analysis(PCA)} is a technique to find features/predictors that better capture the variablilty of the data. Generally, would want to feature to be orthogonal to one another. There is another technique called \emph{Singular Value Decomposition (SVD)}, it is very similar to PCA. Unilke PCA, in this case we do not remove the mean of the data.Howver, Sparse coding is a bit different from these exsiting dimensionality reduction algorithms.And we will see that in the coming section.\\
+
+\subsubsection{Mathematical Formulation}
+Mathematically, we can say that for each input vetor(feature) $x \in \mathbb{R}^d$ is represented by:
+\begin{enumerate}
+	\item A basis vector $b_1,b_2, \ldots ,b_n  \in \mathbb{R}^d$ 
+	\item A sparse vector of weights $s_1,s_2, \ldots ,s_n \in \mathbb{R}^n$. This sparse vector is also reffered as activation with respect to $x$. Generally, you want this vector to be as sparse as possible. In other words, you would like to have plenty of 0
+ weights in this vector. 
+	\item The basis set is generally overcomplete meaing $n>d$, due to which it can capture huge amount of pattern in the data. This is where it gets different from PCA and other dimension reduction algortihms
+\end{enumerate}
+Such that $x \approx \sum_j b_js_j$
+The goal of sparse coding is to represent input features as some weighted linear combination of a small number of "basis vectors" which helps you to capture the high level pattern in the data. 
+
+\section{Toy Example To Illustrate}
+Deep Learning which is a relatively new concept as well uses this concept. Lets take a toy example to understand what it does. Let's we are trying to identify in a image that whether it a cat or not. So the conventional way is to have a pixel intesity representation. However, in sparse coding we get a better representation of that of edges. Now this is a much better representation to have.
+
+\section{Pros \& Cons}
+\subsection{Pros}
+\begin{itemize}
+	\renewcommand{\labelitemi}{$\bullet$}
+	\item Reduce the error prone to human intervention.
+	\item Robust against noise and change in input distribution.
+\end{itemize}
+
+\subsection{Cons}
+\begin{itemize}
+	\renewcommand{\labelitemi}{$\bullet$}
+	\item Performance has been a worry, esp. to learn the overcomplete bases.
+
+\end{itemize}
+
+
+
+\section{Conclusion}
+Even though all the state-of-the-art machine learning algorithms really benfitted data mining. However, the need of labeled data and good feature has always been a huge ask. And Sparse coding tries to reduce this dependency.Although there are conerns overs its performance. However, I still believe that sparse coding is a brilliant unsupervised learning alforithm to help better succinit representation of any object.
+
+
+
+% you can choose not to have a title for an appendix
+% if you want by leaving the argument blank
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+I would like to thank Prof. M. Daiklic, for constant supervision and motivation to understand the problem in details.
+
+% Can use something like this to put references on a page
+% by themselves when using endfloat and the captionsoff option.
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+\begin{thebibliography}{1}
+
+\bibitem{IEEEhowto:kopka}
+\emph{Efﬁcient sparse coding algorithms} http://ai.stanford.edu/~hllee/nips06-sparsecoding.pdf
+\bibitem{IEEEhowto:kopka}
+Pang-Ning~Tan, Vipin~Kumar and Michael~Steinbach, \emph{Intorduction to Data Mining}, $12^{th}$~impression\hskip 1em plus
+  0.5em minus 0.4em\relax: Pearson, 2006.
+\bibitem{IEEEhowto:kopka}
+\emph{Sparse coding in practice} http://axon.cs.byu.edu/~dan/778/papers/Sparse\%20Coding/Chakra.pdf
+\bibitem{IEEEhowto:kopka}
+UNSUPERVISED FEATURE LEARNING VIA SPARSE HIERARCHICAL REPRESENTATIONS http://web.eecs.umich.edu/~honglak/thesis\_final.pdf
+
+\end{thebibliography}
+
+\begin{IEEEbiographynophoto}{Debpriya Seal}
+He is graudate student in his $2^{nd}$ year, pursuing his M.S. in Computer Science.  His interest lies in Data Mining and predictive modelling. He has 5 years of Datawarehousing experience with Accenture under his belt. He is in IU Bloomington 9-ball pool team.
+\end{IEEEbiographynophoto}
+\end{document}
+
+
