@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/debpriyas/Personal/Mining Massive Datasets/Programming/FindingSimilarObj/.metadata/.plugins/org.eclipse.core.resources/.projects/FindingSimilarObj/com.python.pydev.analysis/v2_indexcache
+MinHashing|1415349443000|/Users/debpriyas/Personal/Mining Massive Datasets/Programming/FindingSimilarObj/FindingSimilarObj/src/MinHashing.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=MinHashing
+-- END DICTIONARY
+-- START TREE 1
+7
+cre|4|createSparseMatrix!10@createHashFunc!10@createShingles!10@createSignatureMatrix!10@
+mai|1|main!10@
+min|1|minHashAlgo!10@
+no_|1|NO_OF_HASH_FUNC!11@
+rea|1|readFile!10@
+shi|1|SHINGLE_SIZE!11@
+tot|1|totalShingle!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
